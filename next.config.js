@@ -1,4 +1,17 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  images:{
+    remotePatterns:[
+      {
+        // avatars.githubusercontent.com
+        protocol: 'https',
+        hostname: 'avatars.githubusercontent.com',
+        port: '', 
+      }
+    ]
+  }, 
+}
 
-module.exports = nextConfig
+const withVercelToolbar = require('@vercel/toolbar/plugins/next')();
+// Instead of module.exports = nextConfig, do this:
+module.exports = withVercelToolbar(nextConfig);
