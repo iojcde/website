@@ -5,7 +5,6 @@ import Image from "next/image";
 import { gsap } from "@/lib/gsap";
 import { JavascriptOriginalIcon, TypescriptOriginalIcon } from "react-devicons";
 import { useMedia } from "react-use";
-
 import { Parallax } from "@/components/parallax";
 
 const Stack = () => {
