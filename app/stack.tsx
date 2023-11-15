@@ -272,7 +272,9 @@ const Block = ({
   );
 };
 
-const Header = ({ children }) => (
+const Header = ({ children }  : { 
+  children: ReactNode;
+}) => (
   <h1 className="font-display mb-2 text-3xl font-semibold">{children}</h1>
 );
 
