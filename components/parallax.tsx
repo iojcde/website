@@ -32,11 +32,11 @@ export function Parallax({
   const target = useRef(null);
 
   const { width: windowWidth } = useWindowSize();
-
+ 
   useEffect(() => {
     let timeline: gsap.core.Timeline;
     if (enabled) {
-      const y = windowWidth * speed * 0.1;
+      const y = windowWidth! * speed * 0.1;
 
       const setY = gsap.quickSetter(target.current, "y", "px");
       const set3D = gsap.quickSetter(target.current, "force3D");
