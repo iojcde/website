@@ -27,7 +27,7 @@ export default function RootLayout({
       <body
         className={cn(
           wantedSans.variable,
-          "font-sans flex bg-gray-1 text-gray-12"
+          "font-sans flex bg-gray-12 text-gray-12"
         )}
       >
         {/* <Sidebar /> */}
