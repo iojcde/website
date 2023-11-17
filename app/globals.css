@@ -7,7 +7,7 @@
 }
 
 .dark{
-  @apply bg-gray-1;
+  background-color: rgb(32, 32, 32);
   color-scheme: dark;
 }
 
