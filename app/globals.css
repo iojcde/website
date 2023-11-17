@@ -6,8 +6,7 @@
   @apply border-gray-4;
 }
 
-.dark{
-  background-color: rgb(32, 32, 32);
+.dark{ 
   color-scheme: dark;
 }
 
