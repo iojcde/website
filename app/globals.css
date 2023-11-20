@@ -84,3 +84,7 @@ html{
      mask: none;
      filter: none;
   }
+
+main a {
+  @apply text-gray-12 font-medium underline underline-offset-2;
+}
