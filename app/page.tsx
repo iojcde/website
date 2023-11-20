@@ -51,7 +51,7 @@ export default function Home() {
               <a href="https://devbench.kr">DevBench</a> - Web Designer &
               Moderator
             </li>
-            <li>
+            <li className="appear">
               <a href="https://vignetteapp.org">Vignette</a> - Maintainer &
               Community Moderator
             </li>
@@ -92,3 +92,8 @@ export default function Home() {
     </main>
   );
 }
+
+export const metadata = {
+  title: "Jeeho Ahn - Developer + Designer",
+  description: "Interdisciplinary developer. Visionary designer.",
+};

@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useEffect } from "react";
-import gsap from "gsap";
+import { gsap } from "@/lib/gsap";
 const Ohjangwon = () => {
   const tl = gsap.timeline();
   useEffect(() => {
@@ -36,7 +36,7 @@ const Ohjangwon = () => {
 
         await tl.to(".ohjangwon", {
           autoAlpha: 1,
-        })
+        });
 
         await tl.to(".ohjangwon", {
           scale: 3,

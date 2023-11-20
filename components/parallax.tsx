@@ -2,11 +2,9 @@
 
 import { useEffect, useRef } from "react";
 import { useWindowSize } from "@/hooks/use-window-size";
-import { gsap } from '@/lib/gsap'
+import { gsap } from "@/lib/gsap";
 import { useMedia } from "react-use";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-gsap.registerPlugin(ScrollTrigger);
 export function Parallax({
   className,
   children,
@@ -32,7 +30,7 @@ export function Parallax({
   const target = useRef(null);
 
   const { width: windowWidth } = useWindowSize();
- 
+
   useEffect(() => {
     let timeline: gsap.core.Timeline;
     if (enabled) {
