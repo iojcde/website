@@ -27,10 +27,10 @@ const Stack = () => {
     return (
       <div id="stack" className="container relative px-6 pb-16 sm:px-0 mt-32">
         <div className="relative z-20 mx-auto max-w-screen-xl rounded-xl border bg-background pb-0 sm:border-0 sm:bg-transparent">
-          <h1 className="font-display text-4xl font-medium lg:text-6xl">
+          <h1 className="appear font-display text-4xl font-medium lg:text-6xl">
             Stack
           </h1>
-          <p className="mt-2">Languages ‧ Frameworks ‧ Tools I use</p>
+          <p className="mt-2 appear">Languages ‧ Frameworks ‧ Tools I use</p>
         </div>
         <div className="stack-items absolute inset-y-0 grid grid-cols-2 gap-6 sm:static sm:mx-[-20rem] sm:grid-cols-6">
           {/* <div className="absolute inset-0 opacity-80 bg-grid  z-0"></div> */}
@@ -248,7 +248,16 @@ const Stack = () => {
       </div>
     );
   } else {
-    return <div></div>;
+    return (
+      <div>
+        <div className="relative z-20 mx-auto max-w-screen-xl rounded-xl mt-16 pb-0 ">
+          <h1 className="font-display text-4xl font-medium lg:text-6xl">
+            Stack
+          </h1>
+          <p className="mt-2">Languages ‧ Frameworks ‧ Tools I use</p>
+        </div>
+      </div>
+    );
   }
 };
 
@@ -265,16 +274,14 @@ const Block = ({
   return (
     <div
       ref={ref}
-      className={`stack-block invisible flex h-full w-full flex-col items-center rounded-xl bg-gray-2 border p-6 lg:p-8  `}
+      className={`stack-block select-none invisible flex h-full w-full flex-col items-center rounded-xl bg-gray-2 border p-6 lg:p-8  `}
     >
       {children}
     </div>
   );
 };
 
-const Header = ({ children }  : { 
-  children: ReactNode;
-}) => (
+const Header = ({ children }: { children: ReactNode }) => (
   <h1 className="font-display mb-2 text-3xl font-semibold">{children}</h1>
 );
 

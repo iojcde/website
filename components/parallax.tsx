@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import { useWindowSize } from "@/hooks/use-window-size";
-import { gsap } from "gsap";
+import { gsap } from '@/lib/gsap'
 import { useMedia } from "react-use";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 

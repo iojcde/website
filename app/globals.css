@@ -1,16 +1,86 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+
+html{
+  webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+}
 
 * {
-  @apply border-gray-4;
+  @apply border-gray-4 selection:bg-gray-4;
 }
 
 .dark{
-  
   color-scheme: dark;
 }
 
 .bg-grid {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='rgb(50 50 50 / 0.3)'%3e%3cpath d='M0 .5H31.5V32'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='rgb(50 50 50 / 0.4)'%3e%3cpath d='M0 .5H31.5V32'/%3e%3c/svg%3e");
 }   
+.hero-container {
+  perspective: 1000px;
+}
+
+@layer components {
+  .scroll-indicator {
+    @apply w-0.5 bg-gray-10 rounded-full h-8 origin-top  ;
+    animation: scroll 3s infinite; 
+    animation-play-state: paused;
+  }
+}
+
+@keyframes scroll {
+  0% {  transform: scaleY(0%) scaleX(0%); }
+  50% { transform: scaleY(100%); }
+  100% {  transform: scaleY(0%) scaleX(0%); }
+}
+
+ 
+@layer components {
+  .animate-fade-in {
+    @apply transition-opacity duration-500 ease-in-out;
+    animation: fadeIn 2s forwards;
+  }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.appear {
+  @apply invisible;
+}
+  
+.wow{
+  -webkit-mask: linear-gradient(transparent 50%, black);
+    filter: blur(10px)  ; 
+  /*   filter: url('#filtre2'); */
+  }
+  .wow:hover{
+     -webkit-mask: none;
+     -webkit-filter: none;
+     mask: none;
+     filter: none;
+  }

@@ -5,6 +5,9 @@ import { cn } from "@/lib/utils";
 import Sidebar from "./sidebar";
 import { Suspense } from "react";
 import { VercelToolbar } from "@vercel/toolbar/next";
+import Nav from "./nav";
+import { LenisProvider } from "./lenis";
+import Footer from "./footer";
 
 const wantedSans = localFont({
   src: "../fonts/WantedSansVariable.woff2",
@@ -25,16 +28,13 @@ export default function RootLayout({
   return (
     <html lang="en" className=" dark ">
       <body
-        className={cn(
-          wantedSans.variable,
-          "font-sans flex bg-gray-1 text-gray-12"
-        )}
+        className={cn(wantedSans.variable, " font-sans bg-gray-1 text-gray-12")}
       >
-        {/* <Sidebar /> */}
-        <div className="w-full  overflow-x-hidden">{children}</div>
-        <Suspense>
-          <VercelToolbar />
-        </Suspense>
+        <LenisProvider>
+          <Nav />
+          <div className="w-full  overflow-x-hidden">{children}</div>
+          <Footer />
+        </LenisProvider>
       </body>
     </html>
   );
