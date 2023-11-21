@@ -5,7 +5,12 @@
     "tags": {
       "required": false,
       "description": "Tags for the post",
-      "values": [],
+      "values": [
+        {
+          "value": "test",
+          "label": "test"
+        }
+      ],
       "fieldType": "Tags",
       "dataType": "array",
       "title": "Tags"

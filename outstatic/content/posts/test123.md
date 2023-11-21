@@ -7,6 +7,7 @@ author:
 slug: 'test123'
 description: ''
 coverImage: ''
+tags: [{"label":"test","value":"test"}]
 publishedAt: '2023-11-21T03:55:44.091Z'
 ---
 

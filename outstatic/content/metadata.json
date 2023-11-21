@@ -1,11 +1,11 @@
 {
-  "commit": "fe65d529979bba30a09b2448ccfc354524a73102",
-  "generated": "Tue, 21 Nov 2023 03:53:21 GMT",
+  "commit": "4a03d5ca3ac49c2692bb2b1f6e0f1428c6d0cefc",
+  "generated": "2023-11-21T03:55:45.764Z",
   "metadata": [
     {
       "__outstatic": {
-        "commit": "920f3a4b888056e4f1638c8bf13ffc99ffd805ac",
-        "hash": "1491095493",
+        "commit": "4a03d5ca3ac49c2692bb2b1f6e0f1428c6d0cefc",
+        "hash": "95701709",
         "path": "outstatic/content/posts/test123.md"
       },
       "author": {
@@ -18,6 +18,12 @@
       "publishedAt": "2023-11-21T03:55:44.091Z",
       "slug": "test123",
       "status": "published",
+      "tags": [
+        {
+          "label": "test",
+          "value": "test"
+        }
+      ],
       "title": "Test"
     }
   ]
