@@ -69,8 +69,7 @@ const Hero = () => {
       const { clientX, clientY } = event as MouseEvent;
       const xPercent = (clientX / window.innerWidth) * 2 - 1;
       const yPercent = (clientY / window.innerHeight) * 2 - 1;
-
-      console.log({ xPercent, yPercent });
+ 
       gsap.to("#hero .bg", {
         duration: 0.5,
         x: xPercent * 30,

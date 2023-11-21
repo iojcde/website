@@ -1,10 +1,11 @@
 // src/lib/gsap/index.tsx
 
 import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { CustomEase } from "gsap/dist/CustomEase";
 // import { SplitText } from "gsap/dist/SplitText";
 
-gsap.registerPlugin(CustomEase);
+gsap.registerPlugin(CustomEase, ScrollTrigger);
 
 const GOLDEN_RATIO = (1 + Math.sqrt(5)) / 2;
 const RECIPROCAL_GR = 1 / GOLDEN_RATIO;
