@@ -5,10 +5,10 @@
     "tags": {
       "required": false,
       "description": "Tags for the post",
+      "values": [],
       "fieldType": "Tags",
       "dataType": "array",
-      "title": "tags",
-      "values": []
+      "title": "tags"
     }
   }
 }
