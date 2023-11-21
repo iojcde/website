@@ -1,11 +1,11 @@
 {
-  "commit": "4a03d5ca3ac49c2692bb2b1f6e0f1428c6d0cefc",
-  "generated": "2023-11-21T03:55:45.764Z",
+  "commit": "45846b73a079380b3867435bece0c91011051e85",
+  "generated": "2023-11-21T03:58:52.898Z",
   "metadata": [
     {
       "__outstatic": {
-        "commit": "4a03d5ca3ac49c2692bb2b1f6e0f1428c6d0cefc",
-        "hash": "95701709",
+        "commit": "45846b73a079380b3867435bece0c91011051e85",
+        "hash": "2024266882",
         "path": "outstatic/content/posts/test123.md"
       },
       "author": {
@@ -13,7 +13,7 @@
         "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
       },
       "collection": "posts",
-      "coverImage": "",
+      "coverImage": "https://images.unsplash.com/photo-1563089145-599997674d42?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "",
       "publishedAt": "2023-11-21T03:55:44.091Z",
       "slug": "test123",
