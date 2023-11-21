@@ -4,7 +4,7 @@ import Link from "next/link";
 const Nav = () => {
   return (
     <nav className="w-full fixed z-20 flex justify-between inset-x-0 top-0 p-3 px-6 container max-w-6xl">
-      <Link href="">Jeeho Ahn</Link>
+      <Link href="/">Jeeho Ahn</Link>
 
       <a href="https://github.com/iojcde">
         <svg

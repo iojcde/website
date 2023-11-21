@@ -1,14 +1,63 @@
-// /app/posts/[slug]/page.tsx
-
-import { getDocuments } from "outstatic/server";
+import { load } from "outstatic/server";
+import Image from "next/image";
+import { Post } from "@/app/types/post";
+import Link from "next/link";
 
 export default async function Index() {
-  const posts = await getData();
-  return posts.map((post) => <h1 key={post.slug}>{post.title}</h1>);
+  const { allPosts } = await getData();
+
+  return (
+    <div className="container">
+      <h1 className="text-4xl">Blog</h1>
+      <div className="mt-8">
+        {allPosts.map((post) => (
+          <BlogCard key={post.slug} post={post} />
+        ))}
+      </div>
+    </div>
+  );
 }
 
-async function getData() {
-  const posts = getDocuments("posts", ["title"]);
+const BlogCard = ({ post }: { post: Post }) => (
+  <Link
+    href={`/blog/${post.slug}`}
+    className="border relative block rounded-xl"
+  >
+    {post.coverImage ? (
+      <div className=" relative sm:mx-0 w-full h-52">
+        <Image
+          alt={post.title}
+          src={post?.coverImage || ""}
+          fill
+          className="object-cover rounded-t object-center"
+          priority
+        />
+      </div>
+    ) : null}
+    <div className="p-6">
+      <div className="text-2xl font-semibold">{post.title}</div>
+      <div className="text-gray-11">{post.description}</div>
+    </div>
+  </Link>
+);
 
-  return posts;
+async function getData() {
+  const db = await load();
+
+  const allPosts = await db
+    .find<Post>({ collection: "posts" }, [
+      "title",
+      "publishedAt",
+      "slug",
+      "coverImage",
+      "description",
+      "tags",
+    ])
+    .sort({ publishedAt: -1 })
+    .toArray();
+
+  return {
+    // content,
+    allPosts,
+  };
 }

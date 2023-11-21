@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <footer>
-      <p>Footer</p>
+    <footer className="py-8 text-sm container text-gray-10">
+      © 2023 Jeeho Ahn. All rights reserved.
     </footer>
   );
 };

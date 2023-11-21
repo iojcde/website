@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import localFont from "next/font/local";
-import { cn } from "@/lib/utils"; 
+import { cn } from "@/lib/utils";
 import { Suspense } from "react";
 import { VercelToolbar } from "@vercel/toolbar/next";
 import Nav from "./nav";
@@ -27,11 +27,14 @@ export default function RootLayout({
   return (
     <html lang="en" className=" dark ">
       <body
-        className={cn(wantedSans.variable, " font-sans bg-gray-1 text-gray-12")}
+        className={cn(
+          wantedSans.variable,
+          "flex flex-col min-h-screen font-sans bg-gray-1 text-gray-12"
+        )}
       >
         <LenisProvider>
           <Nav />
-          <div className="w-full  overflow-x-hidden">{children}</div>
+          <div className="w-full grow overflow-x-hidden">{children}</div>
           <Footer />
         </LenisProvider>
       </body>
