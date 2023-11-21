@@ -1,16 +1,15 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import localFont from "next/font/local";
-import { cn } from "@/lib/utils";
-import Sidebar from "./sidebar";
+import { cn } from "@/lib/utils"; 
 import { Suspense } from "react";
 import { VercelToolbar } from "@vercel/toolbar/next";
 import Nav from "./nav";
 import { LenisProvider } from "./lenis";
-import Footer from "./footer";
+import Footer from "../footer";
 
 const wantedSans = localFont({
-  src: "../fonts/WantedSansVariable.woff2",
+  src: "../../fonts/WantedSansVariable.woff2",
   display: "swap",
   variable: "--font-sans",
 });

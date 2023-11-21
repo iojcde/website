@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useEffect } from "react";
 import { gsap } from "@/lib/gsap";
 import dynamic from "next/dynamic";
-const Ohjangwon = dynamic(() => import("./ohjangwon"), { ssr: false });
+const Ohjangwon = dynamic(() => import("./(pages)/ohjangwon"), { ssr: false });
 const Hero = () => {
   useEffect(() => {
     const ease = gsap.fromTo(
