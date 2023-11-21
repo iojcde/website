@@ -1,6 +1,6 @@
 ---
 title: 'Test'
-status: 'draft'
+status: 'published'
 author:
   name: 'Jeeho Ahn'
   picture: 'https://avatars.githubusercontent.com/u/31413538?v=4'
