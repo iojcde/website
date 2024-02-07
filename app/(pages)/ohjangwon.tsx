@@ -42,7 +42,7 @@ const Ohjangwon = () => {
           scale: 3,
           duration: 1,
           rotate: 0,
-          right: "15%",
+          right: "50%",
         });
       }
     };
