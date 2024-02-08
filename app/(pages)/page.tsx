@@ -5,6 +5,7 @@ import { Stack } from "./stack";
 import Hero from "../hero";
 import DevbenchLogo from "@/components/devbench-logo";
 import GitHubLogo from "@/components/github-logo";
+import Experience from "@/components/experience";
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
       <Hero />
       <div className="container">
         <div className="text-light mt-12 ">
-          <h1 className="text-5xl text-balance  leading-[1.1] font-display">
+          <h1 className="text-xl sm:text-5xl text-balance  leading-[1.1] font-display">
             Helping founders and creators build products that matter.
           </h1>
         </div>
@@ -83,77 +84,78 @@ export default function Home() {
 
         <div className="py-16 mt-32">
           <h2 className="text-4xl font-display">Experience</h2>
-          <table className="mt-6 text-sm text-gray-11 prose prose-xl prose-invert prose-neutral max-w-none w-full">
-            <tbody>
-              <tr>
-                <td>2023 - Present</td>
-                <td>
-                  <a href="https://dankook.sen.hs.kr">
-                    Dankook University Affiliated Software Highschool
-                  </a>
-                </td>
-                <td> Student</td>
-              </tr>
-              <tr>
-                <td>2020 - Present</td>
-                <td>
-                  <a href="https://devbench.kr">DevBench</a>
-                </td>
-                <td> Web Designer & Moderator</td>
-              </tr>
-              <tr>
-                <td>2021 - Present</td>
-                <td>
-                  <a href="https://vignetteapp.org">Vignette</a>
-                </td>
-                <td> Maintainer & Community Moderator</td>
-              </tr>
-              <tr>
-                <td>2021 - 2023</td>
-                <td>
-                  <a href="http://gifted.snu.ac.kr/">
-                    SNU Science Education Institute for Gifted
-                  </a>
-                </td>
-                <td> Graduate</td>
-              </tr>
-              <tr>
-                <td>2019 - 2020</td>
-                <td>
-                  <a href="https://talented.snue.ac.kr/">
-                    SNUE Software Gifted Education Center
-                  </a>
-                </td>
-                <td> Graduate</td>
-              </tr>
-            </tbody>
-          </table>
-
+          <div className="mt-6 divide-y text-sm text-gray-11  max-w-none w-full">
+            <Experience
+              time="2023 - Present"
+              role="Student"
+              where="Dankook University Affiliated Software Highschool"
+              url="https://dankook.sen.hs.kr/"
+            />
+            <Experience
+              time="2020 - Present"
+              role="Web Designer & Moderator"
+              where="DevBench"
+              url="https://devbench.kr"
+            />
+            <Experience
+              time="2021 - Present"
+              role="Maintainer & Community Moderator"
+              where="Vignette"
+              url="https://vignetteapp.org"
+            />
+            <Experience
+              time="2021 - 2023"
+              role="Graduate"
+              where="SNU Science Education Institute for Gifted"
+              url="http://gifted.snu.ac.kr/"
+            />
+            <Experience
+              time="2019 - 2020"
+              role="Graduate"
+              where="SNUE Software Gifted Education Center"
+              url="https://talented.snue.ac.kr/"
+            />
+          </div>
           <h2 className="mt-16 text-4xl font-display">Awards</h2>
-          <table className="mt-6 text-sm text-gray-11 prose prose-xl prose-invert prose-neutral max-w-none w-full">
-            <tbody>
-              <tr>
-                <td>2022</td>
-                <td>
-                  <a href="https://www.clawar.org/icres2022/">ICRES</a> Student
-                  Discussion Competition - Bronze Medalist
-                </td>
-              </tr>
-              <tr>
-                <td>2019</td>
-                <td>Samsung Junior Software Cup - Finalist</td>
-              </tr>
-            </tbody>
-          </table>
+          <div className="mt-6 text-sm text-gray-11 prose prose-xl prose-invert prose-neutral max-w-none w-full">
+            <div className="flex gap-1 sm:py-4 py-3">
+              <div className="sm:max-w-28 sm:min-w-28 sm:text-sm max-w-16 min-w-16 text-xs">
+                2022
+              </div>
+              <div className="flex flex-wrap gap-1 justify-between w-full">
+                <span>
+                  <a
+                    href={"https://www.clawar.org/icres2022/"}
+                    className="w-full sm:w-auto"
+                  >
+                    ICRES
+                  </a>
+                  {` `}
+                  Student Discussion Competition
+                </span>
+                <div> Bronze Medalist</div>
+              </div>
+            </div>
+
+            <div className="flex gap-1 sm:py-4 py-3">
+              <div className="sm:max-w-28 sm:min-w-28 sm:text-sm max-w-16 min-w-16 text-xs">
+                2019
+              </div>
+              <div className="flex flex-wrap gap-1 justify-between w-full">
+                <span>Samsung Junior Software Cup</span>
+                <div> Finalist</div>
+              </div>
+            </div>
+          </div>
         </div>
-        <Stack />
-        <div className=" mt-12 flex flex-col space-y-6 border rounded-xl p-6 py-8 bg-gray-2">
-          <div className="font-semibold text-3xl">
+
+        <div className=" mt-12 flex flex-col space-y-6 border rounded-lg p-6 py-8 bg-gray-2">
+          <div className="font-semibold text-2xl font-display">
             Let&apos;s work together and make something great.
           </div>
           <Link
             href="/"
-            className="bg-gray-5 flex items-center gap-2 max-w-fit  text-gray-12 transition hover:bg-gray-6 rounded-full px-6 py-2 border"
+            className="no-underline bg-gray-5 flex items-center gap-2 max-w-fit  text-gray-12 transition hover:bg-gray-6 rounded-full px-6 py-2 border"
           >
             Contact <ArrowRight />
           </Link>
@@ -163,8 +165,3 @@ export default function Home() {
     </main>
   );
 }
-
-export const metadata = {
-  title: "Jeeho Ahn - Developer + Designer",
-  description: "Interdisciplinary developer. Visionary designer.",
-};
