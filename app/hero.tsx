@@ -15,14 +15,14 @@ const Hero = () => {
         <h1 className="text-6xl 2xl:text-9xl font-bold">Jeeho</h1>
         <hr />
         <h1 className="text-6xl 2xl:text-9xl font-bold text-right">
-          <span className="text-gray-10 transition-all duration-300   animate-rgb">
+          <span className="text-gray-10 transition-all duration-300 hover:text-red-500">
             &rarr;
           </span>
           Ahn.
         </h1>
-        <hr className=" shadow-lg shadow-white" />
+        <hr className=" border-gray-4 mt-2" />
       </div>
-      <div className="text-gray-11  font-light mt-4">
+      <div className="text-gray-11 font-light mt-4">
         Aspiring developer <span className="text-gray-11">/</span> designer
       </div>
 

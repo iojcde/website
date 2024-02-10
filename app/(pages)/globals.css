@@ -69,17 +69,7 @@ main a {
 .font-display {
   font-variation-settings:"opsz" 32;
 }
-@keyframes rgb {   
-  0%   {color: hsl(8, 96%, 47%);} /* Red */
-  25%  {color: hsl(57, 100%, 56%);} /* Yellow */
-  50%  {color: hsl(56, 100%, 53%);} /* Warm Yellow */
-  75%  {color: hsl(60, 100%, 85%);} /* Light Yellow */
-  100% {color: hsl(57, 100%, 76%);} /* Light Yellow 2 */
-}
-.animate-rgb:hover {
-  animation: rgb 10s infinite;
-}
-
+ 
 .repo{
   @apply flex items-center gap-1.5
 }

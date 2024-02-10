@@ -3,9 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 const Nav = () => {
   return (
-    <nav className="w-full fixed z-20 flex justify-between inset-x-0 top-0 p-3 px-6 container max-w-6xl">
-      <Link href="/">Jeeho Ahn</Link>
-
+    <nav className="w-full fixed z-20 flex justify-between inset-x-0 top-4 rounded-full border p-3 px-5 container max-w-sm bg-gray-2/50 backdrop-blur-md">
       <a href="https://github.com/iojcde">
         <svg
           stroke="currentColor"
