@@ -26,6 +26,9 @@ dependencies:
   date-fns:
     specifier: ^2.30.0
     version: 2.30.0
+  geist:
+    specifier: ^1.2.2
+    version: 1.2.2(next@14.1.0)
   gsap:
     specifier: ^3.12.2
     version: 3.12.2
@@ -80,7 +83,7 @@ devDependencies:
     specifier: 14.0.2
     version: 14.0.2(eslint@8.0.0)(typescript@5.0.2)
   postcss:
-    specifier: ^8
+    specifier: ^8.0.0
     version: 8.0.0
   tailwindcss:
     specifier: ^3.4.1
@@ -3130,6 +3133,14 @@ packages:
   /functions-have-names@1.2.3:
     resolution: {integrity: sha512-xckBUXyTIqT97tq2x2AMb+g163b5JFysYk0x4qxNFwbfQkmNZoiRHb6sPzI9/QV33WeuvVYBUIiD4NzNIyqaRQ==}
     dev: true
+
+  /geist@1.2.2(next@14.1.0):
+    resolution: {integrity: sha512-uRDrxhvdnPwWJmh+K5+/5LXSKwvJzaYCl9tDXgiBi4hj7hB4K7+n/WLcvJMFs5btvyn0r9OSwCd1s6CmqAsxEw==}
+    peerDependencies:
+      next: '>=13.2.0 <15'
+    dependencies:
+      next: 14.1.0(@babel/core@7.23.3)(react-dom@18.0.0)(react@18.0.0)
+    dev: false
 
   /gensync@1.0.0-beta.2:
     resolution: {integrity: sha512-3hN7NaskYvMDLQY55gnW3NQ+mesEAepTqlg+VEbj7zzqEMBVNhzcGYYeqFo/TlYz6eQiFcp1HcsCZO+nGgS8zg==}

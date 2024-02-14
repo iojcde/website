@@ -11,30 +11,27 @@ export default function Home() {
   return (
     <main className="pb-24">
       <Hero />
-      <div className="container">
-        <div className="text-light mt-16   relative">
-          <div className="absolute w-14 sm:w-8 h-8 -top-8 sm:-top-6  -left-8 border-t-4 sm:border-l-4 border-red-500" />
-          <h1 className="text-3xl font-medium sm:text-5xl text-balance  font-display  leading-[1.1] ">
-            Helping founders and creators build products that matter.
-          </h1>
-        </div>
-
-        <div className="py-48 mt-24">
-          <h2 className="text-4xl font-semibold font-display">Past Work</h2>
-          <h3 className="mt-4 text-lg font-medium font-display text-gray-11">
+      <div className="grid lg:grid-cols-5 items-stretch gap-6 lg:px-6 max-w-7xl mx-auto">
+        <div className="p-10 col-span-2 bg-gray-2 dark:shadow-gray-3 shadow-lg rounded-2xl w-full ">
+          <h2 className="text-2xl font-semibold font-display">Past Work</h2>
+          <h3 className="mt-4 font-medium font-display text-gray-11">
             Projects
           </h3>
-          <div className="flex items-center gap-16 mt-3">
+          <div className="flex items-center gap-8 mt-3">
             <img
-              src="https://vignetteapp.org/cdn-cgi/image/width=128,format=auto/images/logo-dark.png"
-              className="w-[128px] h-[29px]"
+              src="https://vignetteapp.org/cdn-cgi/image/width=512,format=auto/images/logo-dark.png"
+              className=" h-8 dark:block hidden"
+            />
+            <img
+              src="https://vignetteapp.org/cdn-cgi/image/width=512,format=auto/images/logo.png"
+              className=" h-8 dark:hidden block"
             />
             <DevbenchLogo />
           </div>
-          <h2 className="mt-12 text-lg font-medium font-display text-gray-11">
+          <h2 className="mt-10 font-medium font-display text-gray-11">
             Open Source Contributions
           </h2>
-          <div className="mt-3 space-y-3 flex flex-col">
+          <div className="mt-3 space-y-3 text-sm flex flex-col">
             <Link
               className="  no-underline repo"
               href="https://github.com/partykit/partykit"
@@ -73,31 +70,52 @@ export default function Home() {
           </div>
           <div className="text-gray-11 mt-4"> + much more...</div>
         </div>
+        <Link
+          href=""
+          className="block lg:col-span-3 w-full min-h-[28rem] shadow rounded-2xl relative overflow-clip group"
+        >
+          <Image
+            fill
+            className="object-cover w-full h-full group-hover:brightness-50 transition"
+            src="/devbench.png"
+          />
 
-        <div>
-          <h1 className="text-4xl font-display font-semibold">About Me</h1>
-          <p className="mt-6 text-gray-11 prose prose-invert">
+          <div className="group-hover:opacity-100 opacity-0 transition absolute bottom-0 left-0 flex items-center justify-center p-8  ">
+            <div>
+              <span className="text-gray-11">Featured Project</span>
+              <h2 className="text-4xl font-display font-semibold">Devbench</h2>
+            </div>
+          </div>
+        </Link>
+        <div className="lg:col-span-3 p-8 lg:p-10 border  rounded-2xl">
+          <h1 className="text-3xl font-display font-semibold">About Me</h1>
+          <p className="mt-6 text-gray-11 prose prose-invert text-balance">
             I&apos;m a developer and designer based in Seoul, South Korea. I
             enjoy crafting digital experiences and solving problems with
             technology.
             <br />
-            <br /> I have a variety of interests, including web development,
-            design, and open-source software.
+            <br />
+            I&apos;m currently a student at Dankook University Affiliated
+            Software Highschool.
           </p>
-        </div>
-
-        <div className=" mt-12 flex flex-col space-y-6 border rounded-lg p-6 py-8 bg-gray-2">
-          <div className="font-semibold text-2xl font-display">
-            Let&apos;s work together and make something great.
-          </div>
           <Link
-            href="mailto:io@jcde.xyz"
-            className="no-underline bg-gray-5 flex items-center gap-2 max-w-fit  text-gray-12 transition hover:bg-gray-6 rounded-full px-6 py-2 border"
+            href="/about"
+            className="px-5 font-semibold hover:bg-gray-12/90 transition rounded-full  bg-gray-12 inline-block mt-6 text-gray-1 py-2"
           >
-            Contact <ArrowRight />
+            Learn more &rarr;
           </Link>
         </div>
-        <div></div>
+      </div>
+      <div className="container mt-24 flex flex-col space-y-6  p-6 py-8  ">
+        <div className="font-semibold text-2xl font-display">
+          Let&apos;s work together and make something great.
+        </div>
+        <Link
+          href="mailto:io@jcde.xyz"
+          className="no-underline bg-gray-5 flex items-center gap-2 max-w-fit  text-gray-12 transition hover:bg-gray-6 rounded-full px-6 py-2 border"
+        >
+          Contact <ArrowRight />
+        </Link>
       </div>
     </main>
   );

@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
-import "./globals.css";
+
 import localFont from "next/font/local";
 import { cn } from "@/lib/utils";
-import { Suspense } from "react";
-import { VercelToolbar } from "@vercel/toolbar/next";
+import "./globals.css";
 import Nav from "./nav";
 import Footer from "../footer";
+
+import { GeistSans, GeistMono } from "geist/font";
 
 const inter = localFont({
   src: "../../fonts/InterVariable.woff2",
@@ -28,10 +29,10 @@ export default function RootLayout({
       <body
         className={cn(
           inter.variable,
-          "flex flex-col min-h-screen font-sans   bg-gray-1 dark:text-white"
+          "flex flex-col min-h-screen font-sans  dark:bg-black text-gray-12"
         )}
       >
-        {/* <Nav /> */}
+        <Nav />
         <div className="w-full grow overflow-x-hidden">{children}</div>
         <Footer />
       </body>

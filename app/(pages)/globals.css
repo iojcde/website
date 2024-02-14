@@ -8,7 +8,7 @@ html{
 }
 
 * {
-  @apply border-gray-5 selection:bg-gray-4;
+  @apply border-gray-5 selection:bg-gray-12/80 selection:text-gray-1;
 }
 
 .dark{
@@ -63,7 +63,7 @@ html{
   }
 
 main a {
-  @apply text-gray-12 font-medium underline underline-offset-2;
+  @apply text-gray-12 font-medium ;
 }
 
 .font-display {
@@ -71,5 +71,9 @@ main a {
 }
  
 .repo{
-  @apply flex items-center gap-1.5
+  @apply flex items-center gap-1.5;
+}
+
+p{
+  @apply text-gray-11;
 }
