@@ -76,6 +76,7 @@ export default function Home() {
         >
           <Image
             fill
+            alt=""
             className="object-cover w-full h-full group-hover:brightness-50 transition"
             src="/devbench.png"
           />
@@ -87,24 +88,23 @@ export default function Home() {
             </div>
           </div>
         </Link>
-        <div className="lg:col-span-3 p-8 lg:p-10 border  rounded-2xl">
-          <h1 className="text-3xl font-display font-semibold">About Me</h1>
-          <p className="mt-6 text-gray-11 prose prose-invert text-balance">
-            I&apos;m a developer and designer based in Seoul, South Korea. I
-            enjoy crafting digital experiences and solving problems with
-            technology.
-            <br />
-            <br />
-            I&apos;m currently a student at Dankook University Affiliated
-            Software Highschool.
-          </p>
-          <Link
-            href="/about"
-            className="px-5 font-semibold hover:bg-gray-12/90 transition rounded-full  bg-gray-12 inline-block mt-6 text-gray-1 py-2"
-          >
-            Learn more &rarr;
-          </Link>
-        </div>
+      </div>
+      <div className=" container  mt-24    rounded-2xl">
+        <h1 className="text-3xl font-display font-semibold">About Me</h1>
+        <p className="mt-6 text-gray-11 prose prose-invert text-balance">
+          I&apos;m a developer and designer based in Seoul, South Korea. I enjoy
+          crafting digital experiences and solving problems with technology.
+          <br />
+          <br />
+          I&apos;m currently a student at Dankook University Affiliated Software
+          Highschool.
+        </p>
+        <Link
+          href="/about"
+          className="px-5 font-semibold hover:bg-gray-12/90 transition rounded-full  bg-gray-12 inline-block mt-6 text-gray-1 py-2"
+        >
+          Learn more &rarr;
+        </Link>
       </div>
       <div className="container mt-24 flex flex-col space-y-6  p-6 py-8  ">
         <div className="font-semibold text-2xl font-display">
