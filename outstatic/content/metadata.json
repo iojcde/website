@@ -1,6 +1,6 @@
 {
-  "commit": "b83561cae6f1a6fdc2ebbd452011a78d329fcec1",
-  "generated": "2024-03-12T00:10:33.989Z",
+  "commit": "5aa8c706018012032f108e0a4ccf9aa6dd2ddc76",
+  "generated": "2024-03-12T00:18:32.626Z",
   "metadata": [
     {
       "__outstatic": {
@@ -21,6 +21,26 @@
       "tags": [
       ],
       "title": "[자료구조] 1. 자료와 정보"
+    },
+    {
+      "__outstatic": {
+        "commit": "5aa8c706018012032f108e0a4ccf9aa6dd2ddc76",
+        "hash": "1121632419",
+        "path": "outstatic/content/posts/jaryogujo-2.md"
+      },
+      "author": {
+        "name": "Jeeho Ahn",
+        "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "https://images.unsplash.com/photo-1518976024611-28bf4b48222e?q=80&w=1885&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "자료구조의 필요성과 목적, 자료구조의 분류에 대해 알아보자.",
+      "publishedAt": "2024-03-12T01:04:51.270Z",
+      "slug": "jaryogujo-2",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "[자료구조] 2. 자료 구조의 분류"
     }
   ]
 }
