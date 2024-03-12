@@ -1,27 +1,7 @@
 {
-  "commit": "5aa8c706018012032f108e0a4ccf9aa6dd2ddc76",
-  "generated": "2024-03-12T00:18:32.626Z",
+  "commit": "4e028f59a09da7625b95c8fa68d5e74223d41b60",
+  "generated": "2024-03-12T00:20:34.952Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "b83561cae6f1a6fdc2ebbd452011a78d329fcec1",
-        "hash": "4117873674",
-        "path": "outstatic/content/posts/jaryogujo-1.md"
-      },
-      "author": {
-        "name": "Jeeho Ahn",
-        "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "https://images.unsplash.com/photo-1528710522906-29942803a4ea?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "자료와 정보의 개념에 대해 알아보고, 둘의 차이에 대해 알아보자.",
-      "publishedAt": "2024-03-12T00:53:42.508Z",
-      "slug": "jaryogujo-1",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "[자료구조] 1. 자료와 정보"
-    },
     {
       "__outstatic": {
         "commit": "5aa8c706018012032f108e0a4ccf9aa6dd2ddc76",
@@ -41,6 +21,26 @@
       "tags": [
       ],
       "title": "[자료구조] 2. 자료 구조의 분류"
+    },
+    {
+      "__outstatic": {
+        "commit": "4e028f59a09da7625b95c8fa68d5e74223d41b60",
+        "hash": "2578091330",
+        "path": "outstatic/content/posts/jaryogujo-1.md"
+      },
+      "author": {
+        "name": "Jeeho Ahn",
+        "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "https://images.unsplash.com/photo-1528710522906-29942803a4ea?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "자료와 정보의 개념에 대해 알아보고, 둘의 차이에 대해 알아보자.",
+      "publishedAt": "2024-03-12T00:53:42.508Z",
+      "slug": "jaryogujo-1",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "[자료구조] 1. 자료와 정보"
     }
   ]
 }
