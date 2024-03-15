@@ -1,14 +1,13 @@
 ---
 title: '[자료구조] 2. 자료 구조의 분류'
-status: 'draft'
+status: 'published'
 author:
   name: 'Jeeho Ahn'
   picture: 'https://avatars.githubusercontent.com/u/31413538?v=4'
 slug: 'jaryogujo-2'
-description: '자료구조의 필요성과 목적,
-자료구조의 분류에 대해 알아보자.'
+description: '자료구조의 필요성과 목적, 자료구조의 분류에 대해 알아보자.'
 coverImage: 'https://images.unsplash.com/photo-1518976024611-28bf4b48222e?q=80&w=1885&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-tags: ''
+tags: [{"value":"test","label":"test"}]
 publishedAt: '2024-03-12T01:04:51.270Z'
 ---
 
@@ -29,22 +28,27 @@ publishedAt: '2024-03-12T01:04:51.270Z'
 ## 자료 구조의 분류
 
 1. 선형 구조
+
    1. 배열
    2. 스택
    3. 큐
    4. 리스트
+
 2. 비선형 구조
+
    1. 트리
    2. 그래프
 
-   ### 배열과 리스트의 차이 
+   ### 배열과 리스트의 차이
 
    #### 배열 (Array)
+
    - 데이터 연속 저장
    - 데이터 접근: index
    - 삽입 / 삭제 번거롭다
 
    #### 리스트 (Linked List)
+
    - 데이터 비연속 저장
    - 순차적 접근
    - 삽입 / 삭제 용이
