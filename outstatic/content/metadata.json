@@ -1,6 +1,6 @@
 {
-  "commit": "81848ef9478c087867c8a81a211f4b6f0cd4b356",
-  "generated": "2024-03-15T14:21:01.806Z",
+  "commit": "0c0101435cf4fc7d8439812ee73324877a205726",
+  "generated": "2024-03-15T14:27:10.915Z",
   "metadata": [
     {
       "__outstatic": {
@@ -24,7 +24,7 @@
     },
     {
       "__outstatic": {
-        "commit": "81848ef9478c087867c8a81a211f4b6f0cd4b356",
+        "commit": "0c0101435cf4fc7d8439812ee73324877a205726",
         "hash": "3963845905",
         "path": "outstatic/content/posts/jaryogujo-2.md"
       },
