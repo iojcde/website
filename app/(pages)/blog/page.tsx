@@ -9,7 +9,7 @@ export default async function Index() {
   return (
     <div className="container">
       <h1 className="text-4xl">Blog</h1>
-      <div className="mt-8">
+      <div className="mt-8 space-y-4">
         {allPosts.map((post) => (
           <BlogCard key={post.slug} post={post} />
         ))}
@@ -21,10 +21,10 @@ export default async function Index() {
 const BlogCard = ({ post }: { post: Post }) => (
   <Link
     href={`/blog/${post.slug}`}
-    className="border relative block rounded-xl"
+    className="border relative block rounded-xl overflow-hidden"
   >
     {post.coverImage ? (
-      <div className=" relative sm:mx-0 w-full h-52">
+      <div className=" relative sm:mx-0 w-full h-96">
         <Image
           alt={post.title}
           src={post?.coverImage || ""}
