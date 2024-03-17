@@ -1,6 +1,6 @@
 {
-  "commit": "fc7cf1aabdfbe8fdc4c8cdd219f788028a0d4b3f",
-  "generated": "2024-03-17T09:14:08.022Z",
+  "commit": "a2776f6d5ac2c9e4df5dbe1d4f23dd67dccfb64f",
+  "generated": "2024-03-17T09:24:13.410Z",
   "metadata": [
     {
       "__outstatic": {
@@ -109,6 +109,26 @@
         }
       ],
       "title": "[자료구조] 3. 수치 데이터의 표현"
+    },
+    {
+      "__outstatic": {
+        "commit": "a2776f6d5ac2c9e4df5dbe1d4f23dd67dccfb64f",
+        "hash": "4013459421",
+        "path": "outstatic/content/posts/jaryogujo-4.md"
+      },
+      "author": {
+        "name": "Jeeho Ahn",
+        "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-17T10:08:26.157Z",
+      "slug": "jaryogujo-4",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "[자료구조] 4. 정수형 데이터의 표현"
     }
   ]
 }
