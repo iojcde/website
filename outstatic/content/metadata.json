@@ -1,6 +1,6 @@
 {
   "commit": "eab40549b7c6290d021bd8e528915f314b6f52e9",
-  "generated": "2024-03-17T08:42:29.000Z",
+  "generated": "2024-03-17T08:43:20.514Z",
   "metadata": [
     {
       "__outstatic": {
@@ -93,7 +93,7 @@
     {
       "__outstatic": {
         "commit": "eab40549b7c6290d021bd8e528915f314b6f52e9",
-        "hash": "3437869518",
+        "hash": "2664671061",
         "path": "outstatic/content/posts/jaryogujo-gwaje-jeongbo-sahoeyi-munjejeomgwa-haegyeolcaeg.md"
       },
       "author": {
@@ -101,7 +101,7 @@
         "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
       },
       "collection": "posts",
-      "coverImage": "",
+      "coverImage": "https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "",
       "publishedAt": "2024-03-17T08:59:53.843Z",
       "slug": "jaryogujo-gwaje-jeongbo-sahoeyi-munjejeomgwa-haegyeolcaeg",

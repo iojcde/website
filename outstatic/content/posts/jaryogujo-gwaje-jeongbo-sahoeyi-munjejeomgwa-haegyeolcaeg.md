@@ -6,7 +6,7 @@ author:
   picture: 'https://avatars.githubusercontent.com/u/31413538?v=4'
 slug: 'jaryogujo-gwaje-jeongbo-sahoeyi-munjejeomgwa-haegyeolcaeg'
 description: ''
-coverImage: ''
+coverImage: 'https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
 tags: []
 publishedAt: '2024-03-17T08:59:53.843Z'
 ---
