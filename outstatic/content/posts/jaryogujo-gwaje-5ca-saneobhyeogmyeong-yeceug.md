@@ -6,7 +6,7 @@ author:
   picture: 'https://avatars.githubusercontent.com/u/31413538?v=4'
 slug: 'jaryogujo-gwaje-5ca-saneobhyeogmyeong-yeceug'
 description: ''
-coverImage: ''
+coverImage: 'https://images.unsplash.com/photo-1656331797721-b593b8f00297?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
 tags: []
 publishedAt: '2024-03-17T04:44:07.267Z'
 ---
