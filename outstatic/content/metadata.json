@@ -1,6 +1,6 @@
 {
-  "commit": "36ab28759de1276c5ee9ca88b938e041120bc49e",
-  "generated": "2024-03-17T04:13:01.428Z",
+  "commit": "9df73aa2524ab92e9c8a392d8e416facbc0d7ddb",
+  "generated": "2024-03-17T08:28:14.322Z",
   "metadata": [
     {
       "__outstatic": {
@@ -89,6 +89,26 @@
         }
       ],
       "title": "[자료구조] 3. 파일의 구성단위"
+    },
+    {
+      "__outstatic": {
+        "commit": "9df73aa2524ab92e9c8a392d8e416facbc0d7ddb",
+        "hash": "2741082447",
+        "path": "outstatic/content/posts/jaryogujo-gwaje-jeongbo-sahoeyi-munjejeomgwa-haegyeolcaeg.md"
+      },
+      "author": {
+        "name": "Jeeho Ahn",
+        "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-17T08:59:53.843Z",
+      "slug": "jaryogujo-gwaje-jeongbo-sahoeyi-munjejeomgwa-haegyeolcaeg",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "[자료구조] (과제) 정보 사회의 문제점과 해결책"
     }
   ]
 }
