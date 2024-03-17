@@ -1,6 +1,6 @@
 {
-  "commit": "a2776f6d5ac2c9e4df5dbe1d4f23dd67dccfb64f",
-  "generated": "2024-03-17T09:24:13.410Z",
+  "commit": "183e7f980048a92d86813573a0e92601b822110c",
+  "generated": "2024-03-17T09:24:25.717Z",
   "metadata": [
     {
       "__outstatic": {
@@ -112,8 +112,8 @@
     },
     {
       "__outstatic": {
-        "commit": "a2776f6d5ac2c9e4df5dbe1d4f23dd67dccfb64f",
-        "hash": "4013459421",
+        "commit": "183e7f980048a92d86813573a0e92601b822110c",
+        "hash": "2080710987",
         "path": "outstatic/content/posts/jaryogujo-4.md"
       },
       "author": {
@@ -128,7 +128,7 @@
       "status": "draft",
       "tags": [
       ],
-      "title": "[자료구조] 4. 정수형 데이터의 표현"
+      "title": "[자료구조] 4. 수치 데이터의 표현"
     }
   ]
 }
