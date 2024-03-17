@@ -3,7 +3,7 @@ author:
   name: 'Jeeho Ahn'
   picture: 'https://avatars.githubusercontent.com/u/31413538?v=4'
 coverImage: 'https://images.unsplash.com/photo-1461360228754-6e81c478b882?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-title: '[자료구조] 3. 수치 데이터의 표현'
+title: '[자료구조] 3. 자료의 표현'
 status: 'published'
 slug: 'jaryogujo-files'
 description: ''
@@ -11,12 +11,12 @@ tags: [{"value":"test","label":"test"}]
 publishedAt: '2024-03-17T04:42:35.172Z'
 ---
 
-## 자료의 표현 단위 
+## 자료의 표현 단위
 
 - 비트 - 2진수 0/1
 - 니블 - 1/2 바이트 =&gt; 4비트
-- 바이트 -  8비트, 2니블
-- 워드 -  CPU가 한번에 처리하는 명령어의 기본 단위
+- 바이트 - 8비트, 2니블
+- 워드 - CPU가 한번에 처리하는 명령어의 기본 단위
 - 필드 - 파일의 최소 단위
 - 레코드 - 하나 이상의 필드들의 모임
 - 파일 - 여려 레코드가 모여 구성

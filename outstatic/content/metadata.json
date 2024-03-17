@@ -1,6 +1,6 @@
 {
-  "commit": "183e7f980048a92d86813573a0e92601b822110c",
-  "generated": "2024-03-17T09:24:25.717Z",
+  "commit": "4ebe018e0443e3d437e7504536457ffba944f3d9",
+  "generated": "2024-03-17T09:24:42.496Z",
   "metadata": [
     {
       "__outstatic": {
@@ -88,8 +88,28 @@
     },
     {
       "__outstatic": {
-        "commit": "fc7cf1aabdfbe8fdc4c8cdd219f788028a0d4b3f",
-        "hash": "1528264680",
+        "commit": "183e7f980048a92d86813573a0e92601b822110c",
+        "hash": "2080710987",
+        "path": "outstatic/content/posts/jaryogujo-4.md"
+      },
+      "author": {
+        "name": "Jeeho Ahn",
+        "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-17T10:08:26.157Z",
+      "slug": "jaryogujo-4",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "[자료구조] 4. 수치 데이터의 표현"
+    },
+    {
+      "__outstatic": {
+        "commit": "4ebe018e0443e3d437e7504536457ffba944f3d9",
+        "hash": "3694179093",
         "path": "outstatic/content/posts/jaryogujo-files.md"
       },
       "author": {
@@ -108,27 +128,7 @@
           "value": "test"
         }
       ],
-      "title": "[자료구조] 3. 수치 데이터의 표현"
-    },
-    {
-      "__outstatic": {
-        "commit": "183e7f980048a92d86813573a0e92601b822110c",
-        "hash": "2080710987",
-        "path": "outstatic/content/posts/jaryogujo-4.md"
-      },
-      "author": {
-        "name": "Jeeho Ahn",
-        "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-03-17T10:08:26.157Z",
-      "slug": "jaryogujo-4",
-      "status": "draft",
-      "tags": [
-      ],
-      "title": "[자료구조] 4. 수치 데이터의 표현"
+      "title": "[자료구조] 3. 자료의 표현"
     }
   ]
 }
