@@ -1,6 +1,6 @@
 {
-  "commit": "eab40549b7c6290d021bd8e528915f314b6f52e9",
-  "generated": "2024-03-17T08:43:20.514Z",
+  "commit": "36ab28759de1276c5ee9ca88b938e041120bc49e",
+  "generated": "2024-03-17T09:05:11.477Z",
   "metadata": [
     {
       "__outstatic": {
@@ -48,6 +48,30 @@
     },
     {
       "__outstatic": {
+        "commit": "b058b48ec6077850cafde0624cc8ba83ef7b2770",
+        "hash": "512504336",
+        "path": "outstatic/content/posts/jaryogujo-files.md"
+      },
+      "author": {
+        "name": "Jeeho Ahn",
+        "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-17T04:42:35.172Z",
+      "slug": "jaryogujo-files",
+      "status": "published",
+      "tags": [
+        {
+          "label": "test",
+          "value": "test"
+        }
+      ],
+      "title": "[자료구조] 3. 파일의 구성단위"
+    },
+    {
+      "__outstatic": {
         "commit": "93894ab9a389bc7692ee462d6bcea0652d52f627",
         "hash": "3653523326",
         "path": "outstatic/content/posts/jaryogujo-gwaje-5ca-saneobhyeogmyeong-yeceug.md"
@@ -69,46 +93,22 @@
     {
       "__outstatic": {
         "commit": "36ab28759de1276c5ee9ca88b938e041120bc49e",
-        "hash": "3270096084",
-        "path": "outstatic/content/posts/jaryogujo-files.md"
+        "hash": "1321477492",
+        "path": "outstatic/content/posts/jaryogujo-gwaje-mirae-jeongbo-sahoe-yumang-jigjong.md"
       },
       "author": {
         "name": "Jeeho Ahn",
         "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
       },
       "collection": "posts",
-      "coverImage": "https://images.unsplash.com/photo-1461360228754-6e81c478b882?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "coverImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "",
-      "publishedAt": "2024-03-17T04:42:35.172Z",
-      "slug": "jaryogujo-files",
-      "status": "published",
-      "tags": [
-        {
-          "label": "test",
-          "value": "test"
-        }
-      ],
-      "title": "[자료구조] 3. 파일의 구성단위"
-    },
-    {
-      "__outstatic": {
-        "commit": "eab40549b7c6290d021bd8e528915f314b6f52e9",
-        "hash": "2664671061",
-        "path": "outstatic/content/posts/jaryogujo-gwaje-jeongbo-sahoeyi-munjejeomgwa-haegyeolcaeg.md"
-      },
-      "author": {
-        "name": "Jeeho Ahn",
-        "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "",
-      "publishedAt": "2024-03-17T08:59:53.843Z",
-      "slug": "jaryogujo-gwaje-jeongbo-sahoeyi-munjejeomgwa-haegyeolcaeg",
+      "publishedAt": "2024-03-17T05:03:55.577Z",
+      "slug": "jaryogujo-gwaje-mirae-jeongbo-sahoe-yumang-jigjong",
       "status": "draft",
       "tags": [
       ],
-      "title": "[자료구조] (과제) 정보 사회의 문제점과 해결책"
+      "title": "[자료구조] (과제) 미래 정보 사회 유망 직종 "
     }
   ]
 }
