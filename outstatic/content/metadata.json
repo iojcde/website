@@ -1,6 +1,6 @@
 {
   "commit": "aecf6db3d849b3c5bfaed96f78877cebfa830d42",
-  "generated": "2024-03-17T03:51:14.362Z",
+  "generated": "2024-03-17T04:08:45.017Z",
   "metadata": [
     {
       "__outstatic": {
@@ -48,8 +48,8 @@
     },
     {
       "__outstatic": {
-        "commit": "aecf6db3d849b3c5bfaed96f78877cebfa830d42",
-        "hash": "3733914166",
+        "commit": "b058b48ec6077850cafde0624cc8ba83ef7b2770",
+        "hash": "512504336",
         "path": "outstatic/content/posts/jaryogujo-files.md"
       },
       "author": {
@@ -57,7 +57,7 @@
         "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
       },
       "collection": "posts",
-      "coverImage": "https://images.unsplash.com/photo-1569235186275-626cb53b83ce?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "coverImage": "",
       "description": "",
       "publishedAt": "2024-03-17T04:42:35.172Z",
       "slug": "jaryogujo-files",
@@ -69,6 +69,26 @@
         }
       ],
       "title": "[자료구조] 3. 파일의 구성단위"
+    },
+    {
+      "__outstatic": {
+        "commit": "aecf6db3d849b3c5bfaed96f78877cebfa830d42",
+        "hash": "1417890620",
+        "path": "outstatic/content/posts/jaryogujo-gwaje-5ca-saneobhyeogmyeong-yeceug.md"
+      },
+      "author": {
+        "name": "Jeeho Ahn",
+        "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-17T04:44:07.267Z",
+      "slug": "jaryogujo-gwaje-5ca-saneobhyeogmyeong-yeceug",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "[자료구조] (과제) 5차 산업혁명 예측"
     }
   ]
 }
