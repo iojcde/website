@@ -1,6 +1,6 @@
 {
-  "commit": "36ab28759de1276c5ee9ca88b938e041120bc49e",
-  "generated": "2024-03-17T09:05:11.477Z",
+  "commit": "860763f91f92c2b8738e288b4fb5817034eecdfa",
+  "generated": "2024-03-17T09:07:24.631Z",
   "metadata": [
     {
       "__outstatic": {
@@ -92,8 +92,8 @@
     },
     {
       "__outstatic": {
-        "commit": "36ab28759de1276c5ee9ca88b938e041120bc49e",
-        "hash": "1321477492",
+        "commit": "860763f91f92c2b8738e288b4fb5817034eecdfa",
+        "hash": "2353025920",
         "path": "outstatic/content/posts/jaryogujo-gwaje-mirae-jeongbo-sahoe-yumang-jigjong.md"
       },
       "author": {
