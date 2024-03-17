@@ -1,6 +1,6 @@
 {
-  "commit": "9df73aa2524ab92e9c8a392d8e416facbc0d7ddb",
-  "generated": "2024-03-17T08:28:14.322Z",
+  "commit": "eab40549b7c6290d021bd8e528915f314b6f52e9",
+  "generated": "2024-03-17T08:41:38.614Z",
   "metadata": [
     {
       "__outstatic": {
@@ -92,8 +92,8 @@
     },
     {
       "__outstatic": {
-        "commit": "9df73aa2524ab92e9c8a392d8e416facbc0d7ddb",
-        "hash": "2741082447",
+        "commit": "eab40549b7c6290d021bd8e528915f314b6f52e9",
+        "hash": "3226270428",
         "path": "outstatic/content/posts/jaryogujo-gwaje-jeongbo-sahoeyi-munjejeomgwa-haegyeolcaeg.md"
       },
       "author": {
