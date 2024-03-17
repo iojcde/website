@@ -1,13 +1,13 @@
 ---
 title: '[자료구조] (과제) 5차 산업혁명 예측'
-status: 'draft'
+status: 'published'
 author:
   name: 'Jeeho Ahn'
   picture: 'https://avatars.githubusercontent.com/u/31413538?v=4'
 slug: 'jaryogujo-gwaje-5ca-saneobhyeogmyeong-yeceug'
 description: ''
 coverImage: ''
-tags: ''
+tags: []
 publishedAt: '2024-03-17T04:44:07.267Z'
 ---
 
@@ -19,7 +19,7 @@ publishedAt: '2024-03-17T04:44:07.267Z'
 
 3차 산업혁명은 컴퓨터와 인터넷 기술의 발달로 자동화가 촉진되었고,
 
-4차 산업혁명은 인공지능(AI), 사물인터넷(IoT) 등 지능정보기술의 혁신에 기반하고 있다. 
+4차 산업혁명은 인공지능(AI), 사물인터넷(IoT) 등 지능정보기술의 혁신에 기반하고 있다.
 
 나는 제 5차 산업혁명의 중요한 소재로 신소재 및 나노 기술이 있을 것이라 생각한다.
 
@@ -33,4 +33,4 @@ publishedAt: '2024-03-17T04:44:07.267Z'
 
 \[출처\]
 
-<https://m.science.ytn.co.kr/program/view.php?mcd=0082&amp;key=201912051709145153"&gt;https://m.science.ytn.co.kr/program/view.php?mcd=0082&amp;key=201912051709145153> 등
+[https://m.science.ytn.co.kr/program/view.php?mcd=0082&amp;key=201912051709145153"&gt;https://m.science.ytn.co.kr/program/view.php?mcd=0082&amp;key=201912051709145153](https://m.science.ytn.co.kr/program/view.php?mcd=0082&amp;key=201912051709145153%22&gt;https://m.science.ytn.co.kr/program/view.php?mcd=0082&amp;key=201912051709145153) 등

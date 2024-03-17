@@ -1,6 +1,6 @@
 {
-  "commit": "aecf6db3d849b3c5bfaed96f78877cebfa830d42",
-  "generated": "2024-03-17T04:08:45.017Z",
+  "commit": "93894ab9a389bc7692ee462d6bcea0652d52f627",
+  "generated": "2024-03-17T04:08:53.515Z",
   "metadata": [
     {
       "__outstatic": {
@@ -72,8 +72,8 @@
     },
     {
       "__outstatic": {
-        "commit": "aecf6db3d849b3c5bfaed96f78877cebfa830d42",
-        "hash": "1417890620",
+        "commit": "93894ab9a389bc7692ee462d6bcea0652d52f627",
+        "hash": "2733202362",
         "path": "outstatic/content/posts/jaryogujo-gwaje-5ca-saneobhyeogmyeong-yeceug.md"
       },
       "author": {
@@ -85,7 +85,7 @@
       "description": "",
       "publishedAt": "2024-03-17T04:44:07.267Z",
       "slug": "jaryogujo-gwaje-5ca-saneobhyeogmyeong-yeceug",
-      "status": "draft",
+      "status": "published",
       "tags": [
       ],
       "title": "[자료구조] (과제) 5차 산업혁명 예측"
