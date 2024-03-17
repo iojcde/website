@@ -4,7 +4,7 @@ author:
   picture: 'https://avatars.githubusercontent.com/u/31413538?v=4'
 coverImage: ''
 title: '[자료구조] 3. 파일의 구성단위'
-status: 'draft'
+status: 'published'
 slug: 'jaryogujo-files'
 description: ''
 tags: [{"value":"test","label":"test"}]
@@ -43,4 +43,4 @@ publishedAt: '2024-03-17T04:42:35.172Z'
 - 파일 크기를 작게 할 수 있다
 - 구조가 복잡하게 되어 레코드마다 길이를 계산해야 하므로 처리 속도는 느려진다
 
-\[출처\] &lt;a href="<https://terms.tta.or.kr/main.do"&gt;https://terms.tta.or.kr/main.do&lt;/a&gt>;
+\[출처\] &lt;a href="[https://terms.tta.or.kr/main.do"&gt;https://terms.tta.or.kr/main.do&lt;/a&gt](https://terms.tta.or.kr/main.do%22&gt;https://terms.tta.or.kr/main.do&lt;/a&gt);

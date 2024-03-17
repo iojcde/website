@@ -1,6 +1,6 @@
 {
-  "commit": "7dc3f59bc76b450c2368c8a48f805df1832a8bbf",
-  "generated": "2024-03-17T03:49:14.361Z",
+  "commit": "b058b48ec6077850cafde0624cc8ba83ef7b2770",
+  "generated": "2024-03-17T03:49:28.894Z",
   "metadata": [
     {
       "__outstatic": {
@@ -48,8 +48,8 @@
     },
     {
       "__outstatic": {
-        "commit": "7dc3f59bc76b450c2368c8a48f805df1832a8bbf",
-        "hash": "37965991",
+        "commit": "b058b48ec6077850cafde0624cc8ba83ef7b2770",
+        "hash": "512504336",
         "path": "outstatic/content/posts/jaryogujo-files.md"
       },
       "author": {
@@ -61,7 +61,7 @@
       "description": "",
       "publishedAt": "2024-03-17T04:42:35.172Z",
       "slug": "jaryogujo-files",
-      "status": "draft",
+      "status": "published",
       "tags": [
         {
           "label": "test",
