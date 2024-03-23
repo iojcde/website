@@ -1,6 +1,6 @@
 {
   "commit": "3e5505e128ae86a4f4d5a9280f06fd74ee1dba66",
-  "generated": "2024-03-23T14:17:08.173Z",
+  "generated": "2024-03-23T14:56:34.358Z",
   "metadata": [
     {
       "__outstatic": {
@@ -133,8 +133,8 @@
     {
       "__outstatic": {
         "commit": "3e5505e128ae86a4f4d5a9280f06fd74ee1dba66",
-        "hash": "3319328751",
-        "path": "outstatic/content/posts/fpnums.md"
+        "hash": "3354393162",
+        "path": "outstatic/content/posts/jaryogujo-6.md"
       },
       "author": {
         "name": "Jeeho Ahn",
@@ -143,12 +143,12 @@
       "collection": "posts",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2024-03-23T14:51:33.753Z",
-      "slug": "fpnums",
+      "publishedAt": "2024-03-23T14:49:48.856Z",
+      "slug": "jaryogujo-6",
       "status": "draft",
       "tags": [
       ],
-      "title": "[자료구조] 5. 부동 소수점 표현 방식"
+      "title": "[자료구조] 6. 여러가지 데이터의 표현"
     }
   ]
 }
