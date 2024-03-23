@@ -1,13 +1,13 @@
 ---
 title: '[자료구조] 6. 여러가지 데이터의 표현'
-status: 'draft'
+status: 'published'
 author:
   name: 'Jeeho Ahn'
   picture: 'https://avatars.githubusercontent.com/u/31413538?v=4'
 slug: 'jaryogujo-6'
 description: ''
 coverImage: ''
-tags: ''
+tags: [{"value":"test","label":"test"}]
 publishedAt: '2024-03-23T14:49:48.856Z'
 ---
 
@@ -31,7 +31,7 @@ UTF-8, UTF-16 등 여러가지 종류가 있지만, UTF-8이 가장 흔히 쓰�
 
 ![](/images/image-EzNT.png)
 
-### 한글 코드 
+### 한글 코드
 
 크게 완성형과 조합형 코드로 나눠진다.
 
@@ -41,7 +41,7 @@ UTF-8, UTF-16 등 여러가지 종류가 있지만, UTF-8이 가장 흔히 쓰�
 
 ### 비트맵 이미지 (래스터 이미지)
 
-픽셀들의 집합 
+픽셀들의 집합
 
 ### 벡터 이미지
 
@@ -50,11 +50,16 @@ UTF-8, UTF-16 등 여러가지 종류가 있지만, UTF-8이 가장 흔히 쓰�
 ## 소리 데이터의 표현
 
 - MP3 - 손실 압축 포맷을 이용
-- WAV 
+
+- WAV
+
 - AU - 선 마이크로시스템즈가 개발한 오디오 파일 포맷
-- WMA 
+
+- WMA
+
 - RA
-- AAC 
+
+- AAC
 
   등
 
@@ -65,7 +70,7 @@ UTF-8, UTF-16 등 여러가지 종류가 있지만, UTF-8이 가장 흔히 쓰�
 ### 동영상 파일의 종류
 
 - AVI - 압축률이 높지 않다
-- MP4 
+- MP4
 - MOV
 - ASF - 인텔이 개발한 데이터 포맷
 - RM
