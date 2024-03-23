@@ -1,6 +1,6 @@
 {
-  "commit": "3e5505e128ae86a4f4d5a9280f06fd74ee1dba66",
-  "generated": "2024-03-23T14:56:34.358Z",
+  "commit": "c0616c66631e88e63dbac96ca15576e1977fc0b2",
+  "generated": "2024-03-23T15:05:19.690Z",
   "metadata": [
     {
       "__outstatic": {
@@ -149,6 +149,26 @@
       "tags": [
       ],
       "title": "[자료구조] 6. 여러가지 데이터의 표현"
+    },
+    {
+      "__outstatic": {
+        "commit": "c0616c66631e88e63dbac96ca15576e1977fc0b2",
+        "hash": "1131998465",
+        "path": "outstatic/content/posts/jaryogujo-gwaje-munje-jejaghago-haeseolhagi.md"
+      },
+      "author": {
+        "name": "Jeeho Ahn",
+        "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-23T15:50:58.045Z",
+      "slug": "jaryogujo-gwaje-munje-jejaghago-haeseolhagi",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "[자료구조] ( 과제)문제 제작하고 해설하기"
     }
   ]
 }
