@@ -1,17 +1,17 @@
 ---
 title: '[자료구조] 5. 부동 소수점 표현 방식'
-status: 'draft'
+status: 'published'
 author:
   name: 'Jeeho Ahn'
   picture: 'https://avatars.githubusercontent.com/u/31413538?v=4'
 slug: 'fpnums'
 description: ''
 coverImage: ''
-tags: ''
+tags: [{"value":"test","label":"test"}]
 publishedAt: '2024-03-23T14:51:33.753Z'
 ---
 
-### 부동 소수점 데이터 표현 방식 
+### 부동 소수점 데이터 표현 방식
 
 부동 =&gt; 소수점이 움직인다
 
@@ -31,6 +31,6 @@ publishedAt: '2024-03-23T14:51:33.753Z'
 
 ### 특징
 
-기억 용량을 고정 소수점 데이터 표현 방식보다 많이 차지하고, 구조도 복잡해 연산속도가 느리다. 
+기억 용량을 고정 소수점 데이터 표현 방식보다 많이 차지하고, 구조도 복잡해 연산속도가 느리다.
 
 그러나, 표현할 수 있는 범위가 크고, 지수를 사용해 어마어마하게 큰 수의 표현이 가능하다는 장점이 있다.
