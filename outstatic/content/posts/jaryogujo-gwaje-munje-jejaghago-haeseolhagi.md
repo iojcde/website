@@ -3,11 +3,11 @@ author:
   name: 'Jeeho Ahn'
   picture: 'https://avatars.githubusercontent.com/u/31413538?v=4'
 coverImage: ''
-title: '[자료구조] ( 과제)문제 제작하고 해설하기'
+title: '[자료구조] (과제) 문제 제작하고 해설하기'
 status: 'draft'
 slug: 'jaryogujo-gwaje-munje-jejaghago-haeseolhagi'
 description: ''
-tags: ''
+tags: [{"value":"test","label":"test"}]
 publishedAt: '2024-03-23T15:50:58.045Z'
 ---
 
@@ -25,4 +25,4 @@ publishedAt: '2024-03-23T15:50:58.045Z'
 
 11000000111011000000000000000000
 
-으로 나타낼 수 있을것이다. 
+으로 나타낼 수 있을것이다.
