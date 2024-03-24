@@ -1,6 +1,6 @@
 {
-  "commit": "6ac3e193426a1c0b58bdd71cb2112edd3f669a2c",
-  "generated": "2024-03-23T15:08:34.457Z",
+  "commit": "e17e9db6f6a0442cef2679e6a9948d5293f0181a",
+  "generated": "2024-03-24T23:01:54.193Z",
   "metadata": [
     {
       "__outstatic": {
@@ -201,6 +201,26 @@
         }
       ],
       "title": "[자료구조] 6. 여러가지 데이터의 표현"
+    },
+    {
+      "__outstatic": {
+        "commit": "e17e9db6f6a0442cef2679e6a9948d5293f0181a",
+        "hash": "1634340330",
+        "path": "outstatic/content/posts/jaryogujo-beulrogeu-ireum-asciiro-pyohyeonhagi.md"
+      },
+      "author": {
+        "name": "Jeeho Ahn",
+        "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-24T23:54:26.597Z",
+      "slug": "jaryogujo-beulrogeu-ireum-asciiro-pyohyeonhagi",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "[자료구조] 블로그 이름 ASCII로 표현하기"
     }
   ]
 }
