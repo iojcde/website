@@ -1,6 +1,6 @@
 {
-  "commit": "6e8f2445cf1e4258279dd9c79dc4466c27995f7e",
-  "generated": "2024-04-05T12:09:48.961Z",
+  "commit": "796e5efa5048328a43b4b34cc8c3e2d48c7752af",
+  "generated": "2024-04-07T15:31:49.763Z",
   "metadata": [
     {
       "__outstatic": {
@@ -301,6 +301,26 @@
       "tags": [
       ],
       "title": "[자료구조] 스택"
+    },
+    {
+      "__outstatic": {
+        "commit": "796e5efa5048328a43b4b34cc8c3e2d48c7752af",
+        "hash": "1643106239",
+        "path": "outstatic/content/posts/stack-questions.md"
+      },
+      "author": {
+        "name": "Jeeho Ahn",
+        "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-04-07T16:14:59.041Z",
+      "slug": "stack-questions",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "[자료구조] - 스택 문제 만들기"
     }
   ]
 }
