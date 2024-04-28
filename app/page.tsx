@@ -6,8 +6,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import Link from "next/link";
-import DevbenchLogo from "@/components/ui/DevbenchLogo";
+import { Link } from "next-view-transitions";
 
 export default function Home() {
   return (
@@ -45,12 +44,20 @@ export default function Home() {
         <div className="flex flex-col gap-3">
           <div className="w-12 h-0.5 mb-1 border-b border-gray-11" />
           <div className="text-gray-10">Featured Project</div>
-          <h3 className="text-3xl md:text-4xl  font-semibold">Vignette</h3>
+          <h3
+            className="text-3xl md:text-4xl  font-semibold  w-fit"
+            style={{ viewTransitionName: "vignette-title" }}
+          >
+            Vignette
+          </h3>
           <div className="mt-2 text-base font-normal text-gray-11 ">
             Design, Web, Infrastructure, i18n
           </div>
         </div>
         <img
+          style={{
+            viewTransitionName: "vignette-img",
+          }}
           src="https://io.jcde.xyz/images/screenshot/vignette.png"
           className="   transition object-cover h-96 rounded-md col-span-2"
         />

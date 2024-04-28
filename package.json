@@ -17,6 +17,7 @@
     "clsx": "^2.1.1",
     "embla-carousel-react": "^8.0.2",
     "next": "14.2.3",
+    "next-view-transitions": "^0.1.1",
     "outstatic": "^1.4.8",
     "react": "^18",
     "react-dom": "^18",

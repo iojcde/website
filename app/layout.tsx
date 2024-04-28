@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import Nav from "./nav";
+import { ViewTransitions } from "next-view-transitions";
 
 const inter = localFont({
   src: "../public/InterVariable.woff2",
@@ -20,12 +20,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${inter.variable} font-sans p-6 max-w-5xl mx-auto min-[512px]:px-16 lg:px-4`}
-      >
-        {children}
-      </body>
-    </html>
+    <ViewTransitions>
+      <html lang="en">
+        <body
+          className={`${inter.variable} font-sans p-6 max-w-5xl mx-auto min-[512px]:px-16 lg:px-4`}
+        >
+          {children}
+        </body>
+      </html>
+    </ViewTransitions>
   );
 }
