@@ -1,6 +1,14 @@
+  
+
+@import "@radix-ui/colors/gray.css";
+@import "@radix-ui/colors/gray-alpha.css";
+@import "@radix-ui/colors/gray-dark.css";
+@import "@radix-ui/colors/gray-dark-alpha.css";
+
+
 @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
+@tailwind components;
+@tailwind utilities;
 
   @layer base {
     :root {
@@ -85,7 +93,7 @@ h1,h2,h3,h4 {
 }
 
 p{
-  @apply text-neutral-900 dark:text-neutral-200;
+  @apply text-gray-12 tracking-[-0.01em];
 }
 
 body {
