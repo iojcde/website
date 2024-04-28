@@ -1,0 +1,366 @@
+{
+  "commit": "32eff3132e363972e33bc72c6e1624331661ccf0",
+  "generated": "2024-04-21T12:01:40.453Z",
+  "metadata": [
+    {
+      "__outstatic": {
+        "commit": "4e028f59a09da7625b95c8fa68d5e74223d41b60",
+        "hash": "2578091330",
+        "path": "outstatic/content/posts/jaryogujo-1.md"
+      },
+      "author": {
+        "name": "Jeeho Ahn",
+        "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "https://images.unsplash.com/photo-1528710522906-29942803a4ea?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "자료와 정보의 개념에 대해 알아보고, 둘의 차이에 대해 알아보자.",
+      "publishedAt": "2024-03-12T00:53:42.508Z",
+      "slug": "jaryogujo-1",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "[자료구조] 1. 자료와 정보"
+    },
+    {
+      "__outstatic": {
+        "commit": "0c0101435cf4fc7d8439812ee73324877a205726",
+        "hash": "3963845905",
+        "path": "outstatic/content/posts/jaryogujo-2.md"
+      },
+      "author": {
+        "name": "Jeeho Ahn",
+        "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "https://images.unsplash.com/photo-1518976024611-28bf4b48222e?q=80&w=1885&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "자료구조의 필요성과 목적, 자료구조의 분류에 대해 알아보자.",
+      "publishedAt": "2024-03-12T01:04:51.270Z",
+      "slug": "jaryogujo-2",
+      "status": "published",
+      "tags": [
+        {
+          "label": "test",
+          "value": "test"
+        }
+      ],
+      "title": "[자료구조] 2. 자료 구조의 분류"
+    },
+    {
+      "__outstatic": {
+        "commit": "93894ab9a389bc7692ee462d6bcea0652d52f627",
+        "hash": "3653523326",
+        "path": "outstatic/content/posts/jaryogujo-gwaje-5ca-saneobhyeogmyeong-yeceug.md"
+      },
+      "author": {
+        "name": "Jeeho Ahn",
+        "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "https://images.unsplash.com/photo-1656331797721-b593b8f00297?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "",
+      "publishedAt": "2024-03-17T04:44:07.267Z",
+      "slug": "jaryogujo-gwaje-5ca-saneobhyeogmyeong-yeceug",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "[자료구조] (과제) 5차 산업혁명 예측"
+    },
+    {
+      "__outstatic": {
+        "commit": "860763f91f92c2b8738e288b4fb5817034eecdfa",
+        "hash": "2353025920",
+        "path": "outstatic/content/posts/jaryogujo-gwaje-mirae-jeongbo-sahoe-yumang-jigjong.md"
+      },
+      "author": {
+        "name": "Jeeho Ahn",
+        "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "",
+      "publishedAt": "2024-03-17T05:03:55.577Z",
+      "slug": "jaryogujo-gwaje-mirae-jeongbo-sahoe-yumang-jigjong",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "[자료구조] (과제) 미래 정보 사회 유망 직종 "
+    },
+    {
+      "__outstatic": {
+        "commit": "183e7f980048a92d86813573a0e92601b822110c",
+        "hash": "2080710987",
+        "path": "outstatic/content/posts/jaryogujo-4.md"
+      },
+      "author": {
+        "name": "Jeeho Ahn",
+        "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-17T10:08:26.157Z",
+      "slug": "jaryogujo-4",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "[자료구조] 4. 수치 데이터의 표현"
+    },
+    {
+      "__outstatic": {
+        "commit": "4ebe018e0443e3d437e7504536457ffba944f3d9",
+        "hash": "3694179093",
+        "path": "outstatic/content/posts/jaryogujo-files.md"
+      },
+      "author": {
+        "name": "Jeeho Ahn",
+        "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "https://images.unsplash.com/photo-1461360228754-6e81c478b882?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "",
+      "publishedAt": "2024-03-17T04:42:35.172Z",
+      "slug": "jaryogujo-files",
+      "status": "published",
+      "tags": [
+        {
+          "label": "test",
+          "value": "test"
+        }
+      ],
+      "title": "[자료구조] 3. 자료의 표현"
+    },
+    {
+      "__outstatic": {
+        "commit": "91d030ebfaf8a8b8886f5cd2d5c3ec401385ff7f",
+        "hash": "1569603722",
+        "path": "outstatic/content/posts/fpnums.md"
+      },
+      "author": {
+        "name": "Jeeho Ahn",
+        "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-23T14:51:33.753Z",
+      "slug": "fpnums",
+      "status": "published",
+      "tags": [
+        {
+          "label": "test",
+          "value": "test"
+        }
+      ],
+      "title": "[자료구조] 5. 부동 소수점 표현 방식"
+    },
+    {
+      "__outstatic": {
+        "commit": "042c39abae4c06ae7dc1e1959aa83700bb791857",
+        "hash": "1245189175",
+        "path": "outstatic/content/posts/jaryogujo-gwaje-munje-jejaghago-haeseolhagi.md"
+      },
+      "author": {
+        "name": "Jeeho Ahn",
+        "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-23T15:50:58.045Z",
+      "slug": "jaryogujo-gwaje-munje-jejaghago-haeseolhagi",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "test",
+          "value": "test"
+        }
+      ],
+      "title": "[자료구조] (과제) 문제 제작하고 해설하기"
+    },
+    {
+      "__outstatic": {
+        "commit": "6ac3e193426a1c0b58bdd71cb2112edd3f669a2c",
+        "hash": "1147633301",
+        "path": "outstatic/content/posts/jaryogujo-6.md"
+      },
+      "author": {
+        "name": "Jeeho Ahn",
+        "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-23T14:49:48.856Z",
+      "slug": "jaryogujo-6",
+      "status": "published",
+      "tags": [
+        {
+          "label": "test",
+          "value": "test"
+        }
+      ],
+      "title": "[자료구조] 6. 여러가지 데이터의 표현"
+    },
+    {
+      "__outstatic": {
+        "commit": "e17e9db6f6a0442cef2679e6a9948d5293f0181a",
+        "hash": "1634340330",
+        "path": "outstatic/content/posts/jaryogujo-beulrogeu-ireum-asciiro-pyohyeonhagi.md"
+      },
+      "author": {
+        "name": "Jeeho Ahn",
+        "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-03-24T23:54:26.597Z",
+      "slug": "jaryogujo-beulrogeu-ireum-asciiro-pyohyeonhagi",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "[자료구조] 블로그 이름 ASCII로 표현하기"
+    },
+    {
+      "__outstatic": {
+        "commit": "67c5e295b70c3aa3fc24200e6944a12067b45158",
+        "hash": "285800175",
+        "path": "outstatic/content/posts/arrays.md"
+      },
+      "author": {
+        "name": "Jeeho Ahn",
+        "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-04-04T01:55:09.591Z",
+      "slug": "arrays",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "[자료구조] 순차구조 -  1. 배열"
+    },
+    {
+      "__outstatic": {
+        "commit": "f452d75fff788bdb21233d75f12d5601b12b4e08",
+        "hash": "3317480254",
+        "path": "outstatic/content/posts/jaryogujo-yeoreogaji-baeyeol.md"
+      },
+      "author": {
+        "name": "Jeeho Ahn",
+        "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-04-04T02:03:15.732Z",
+      "slug": "jaryogujo-yeoreogaji-baeyeol",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "[자료구조] 여러가지 배열"
+    },
+    {
+      "__outstatic": {
+        "commit": "6f6a123750e93c475038fc344f561b499cde20b4",
+        "hash": "2299978876",
+        "path": "outstatic/content/posts/jaryogujo-gwaje-cangyijeog-tamgu-hwaldong.md"
+      },
+      "author": {
+        "name": "Jeeho Ahn",
+        "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-04-04T02:12:06.388Z",
+      "slug": "jaryogujo-gwaje-cangyijeog-tamgu-hwaldong",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "[자료구조] (과제) 창의적 탐구 활동"
+    },
+    {
+      "__outstatic": {
+        "commit": "6e8f2445cf1e4258279dd9c79dc4466c27995f7e",
+        "hash": "2285085583",
+        "path": "outstatic/content/posts/jaryogujo-seutaeg.md"
+      },
+      "author": {
+        "name": "Jeeho Ahn",
+        "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-04-05T12:57:39.081Z",
+      "slug": "jaryogujo-seutaeg",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "[자료구조] 스택"
+    },
+    {
+      "__outstatic": {
+        "commit": "796e5efa5048328a43b4b34cc8c3e2d48c7752af",
+        "hash": "1643106239",
+        "path": "outstatic/content/posts/stack-questions.md"
+      },
+      "author": {
+        "name": "Jeeho Ahn",
+        "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-04-07T16:14:59.041Z",
+      "slug": "stack-questions",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "[자료구조] - 스택 문제 만들기"
+    },
+    {
+      "__outstatic": {
+        "commit": "bf18fe55f74ea4c9648c4d37f9638940dfca9270",
+        "hash": "3424314157",
+        "path": "outstatic/content/posts/jaryogujo-hanoiyi-tab-munje-puli.md"
+      },
+      "author": {
+        "name": "Jeeho Ahn",
+        "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-04-14T14:31:15.202Z",
+      "slug": "jaryogujo-hanoiyi-tab-munje-puli",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "[자료구조] 하노이의 탑 문제 풀이"
+    },
+    {
+      "__outstatic": {
+        "commit": "32eff3132e363972e33bc72c6e1624331661ccf0",
+        "hash": "1289297072",
+        "path": "outstatic/content/posts/jaryogujo-kyu.md"
+      },
+      "author": {
+        "name": "Jeeho Ahn",
+        "picture": "https://avatars.githubusercontent.com/u/31413538?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-04-21T12:43:57.941Z",
+      "slug": "jaryogujo-kyu",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "[자료구조] 큐 "
+    }
+  ]
+}

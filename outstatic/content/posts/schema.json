@@ -1,0 +1,19 @@
+{
+  "title": "posts",
+  "type": "object",
+  "properties": {
+    "tags": {
+      "required": false,
+      "description": "Tags for the post",
+      "values": [
+        {
+          "value": "test",
+          "label": "test"
+        }
+      ],
+      "fieldType": "Tags",
+      "dataType": "array",
+      "title": "Tags"
+    }
+  }
+}

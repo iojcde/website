@@ -21,7 +21,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} font-sans p-6 max-w-5xl mx-auto min-[512px]:px-16 lg:px-4`}>{children}</body>
+      <body
+        className={`${inter.variable} font-sans p-6 max-w-5xl mx-auto min-[512px]:px-16 lg:px-4`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
