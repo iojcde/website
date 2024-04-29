@@ -29,7 +29,7 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <p className="mt-16 text-lg text-balance max-w-prose leading-relaxed w-2/3 ">
+      <p className="mt-16 text-lg text-balance max-w-prose leading-relaxed w-2/3  ">
         I&apos;m a developer and designer based in Seoul, South Korea. I enjoy
         crafting digital experiences and solving problems with technology.
         I&apos;m currently a student at Dankook University Software Highschool.
@@ -39,15 +39,12 @@ export default function Home() {
       </p>
       <Link
         href="/projects/vignette"
-        className="mt-24 hover:opacity-80 transition gap-4 lg:gap-12 grid lg:grid-cols-3"
+        className="mt-28 hover:opacity-70 transition gap-4 lg:gap-12 grid lg:grid-cols-3"
       >
         <div className="flex flex-col gap-3">
           <div className="w-12 h-0.5 mb-1 border-b border-gray-11" />
           <div className="text-gray-10">Featured Project</div>
-          <h3
-            className="text-3xl md:text-4xl  font-semibold  w-fit"
-            style={{ viewTransitionName: "vignette-title" }}
-          >
+          <h3 className="text-3xl md:text-4xl  font-semibold  w-fit">
             Vignette
           </h3>
           <div className="mt-2 text-base font-normal text-gray-11 ">
@@ -64,7 +61,7 @@ export default function Home() {
       </Link>
       <div className="py-24">
         {" "}
-        <h2 className="text-2xl font-medium mt-8">Kitar Iguyo</h2>
+        <h2 className="text-2xl font-medium mt-8">Kitar </h2>
         <p className="text-xl  ">omg it kitar</p>
         <Carousel className="w-full max-w-2xl mt-4 ">
           <div className="rounded-xl border overflow-hidden relative">
@@ -98,6 +95,11 @@ export default function Home() {
           <CarouselPrevious />
           <CarouselNext />
         </Carousel>
+        <span className="mt-2 text-gray-11 text-sm inline-block">
+          from{" "}
+          <a href="https://twitter.com/BocchiTShitpost">@bocchitshitpost</a>
+        </span>{" "}
+        <p className="text-xl mt-8">yes i am a kita fan</p>
       </div>{" "}
     </main>
   );

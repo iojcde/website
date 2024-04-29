@@ -2,12 +2,7 @@ const Vignette = () => {
   return (
     <div className="py-24">
       <span className="font-medium text-gray-11">Project</span>
-      <h1
-        style={{ viewTransitionName: "vignette-title" }}
-        className="mt-2 text-5xl font-semibold w-fit"
-      >
-        Vignette
-      </h1>
+      <h1 className="mt-2 text-5xl font-semibold w-fit">Vignette</h1>
       <span className="mt-4 inline-block text-gray-11">2021~Ongoing</span>
 
       <p className="mt-8 text-xl  text-balance">

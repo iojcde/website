@@ -54,7 +54,7 @@ export async function generateMetadata(params: Params): Promise<Metadata> {
 export default async function Post(params: Params) {
   const post = await getData(params);
   return (
-    <article className="mb-32 container">
+    <article className="mb-32 mt-24 ">
       {Array.isArray(post?.tags)
         ? post.tags.map(({ label }) => (
             <span
@@ -65,19 +65,8 @@ export default async function Post(params: Params) {
             </span>
           ))
         : null}
-      <h1 className="font-primary text-2xl font-bold md:text-4xl mb-2">
-        {post.title}
-      </h1>
-      <div className="relative mt-4 rounded sm:mx-0 w-full h-52 md:h-96">
-        <Image
-          alt={post.title}
-          src={post?.coverImage || ""}
-          fill
-          className="object-cover rounded object-center"
-          priority
-        />
-      </div>
-      <div className="flex items-center gap-3 px-2">
+      <h1 className=" text-3xl font-semibold md:text-5xl mb-2">{post.title}</h1>
+      <div className="flex items-center mt-8 gap-3 px-2">
         <Image
           alt=""
           src="https://avatars.githubusercontent.com/u/31413538?v=4"
@@ -92,10 +81,21 @@ export default async function Post(params: Params) {
           </div>
         </div>
       </div>
-      <hr className="border-gray-9  my-4" />
-      <Markdown className="prose prose-invert prose-gray">
-        {post.content || ""}
-      </Markdown>
+      <div className="relative mt-16 rounded sm:mx-0 w-full h-52 md:h-96">
+        <Image
+          alt={post.title}
+          src={post?.coverImage || ""}
+          fill
+          className="object-cover rounded object-center"
+          priority
+        />
+      </div>
+
+      <div className="max-w-[800px] mt-8  mx-auto lg:border-l border-gray-6">
+        <Markdown className="prose prose-lg  prose-gray max-w-[700px] mx-auto ">
+          {post.content || ""}
+        </Markdown>
+      </div>
     </article>
   );
 }

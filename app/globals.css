@@ -4,11 +4,12 @@
 @import "@radix-ui/colors/gray-alpha.css";
 @import "@radix-ui/colors/gray-dark.css";
 @import "@radix-ui/colors/gray-dark-alpha.css";
-
-
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+ 
 
   @layer base {
     :root {
@@ -93,7 +94,7 @@ h1,h2,h3,h4 {
 }
 
 p{
-  @apply text-gray-12 tracking-[-0.01em];
+  @apply text-gray-12  ;
 }
 
 body {

@@ -102,11 +102,12 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       fontFamily: {
-        sans: ["var(--font-sans)"],
+        sans: ["var(--font-sans)", "Pretendard"],
       },
     },
   },
   plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
+  presets: [require("windy-radix-typography")],
 } satisfies Config;
 
 export default config;
