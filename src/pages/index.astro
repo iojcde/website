@@ -1,50 +1,64 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import BocchiCarousel from "@/components/bocchi-carousel";
+import Layout from "../layouts/Layout.astro";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 ---
 
-<!doctype html>
-<html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
-				template serves as a lightweight, minimally-styled starting point for anyone looking to build
-				a personal website, blog, or portfolio with Astro.
-			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to <a href="https://docs.astro.build/"
-					>read the docs
-				</a> or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out <a
-					href="https://github.com/Charca/astro-blog-template"
-					>astro-blog-template
-				</a> by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
-		</main>
-		<Footer />
-	</body>
-</html>
+<Layout title="Jeeho Ahn">
+  <div class="flex flex-wrap items-center mt-4 justify-between">
+    <div>
+      <h1 class="text-4xl font-bold mt-12">Jeeho Ahn</h1>
+      <span class="inline-block ml-1 text-gray-11"> Designer  Developer </span>
+    </div>
+
+    <div
+      class="flex md:flex-col pt-4 md:items-end font-display text-xl gap-3 font-medium"
+    >
+      <a href="/">Home</a>
+      <a class="text-gray-10" href="/craft"> Craft </a>
+      <a class="text-gray-10" href="/blog"> Blog </a>
+    </div>
+  </div>
+  <p class="mt-16 text-lg text-balance max-w-prose leading-relaxed w-2/3">
+    I&apos;m a developer and designer based in Seoul, South Korea. I enjoy
+    crafting digital experiences and solving problems with technology. I&apos;m
+    currently a student at Dankook University Software Highschool.
+    <br />
+    <br />
+    Check out my works below:
+  </p>
+  <a
+    href="/craft/vignette"
+    class="mt-28 hover:opacity-70 transition gap-4 lg:gap-12 grid lg:grid-cols-3"
+  >
+    <div class="flex flex-col gap-3">
+      <div class="w-12 h-0.5 mb-1 border-b border-gray-11"></div>
+      <div class="text-gray-10">Featured Project</div>
+      <h3 class="text-3xl md:text-4xl font-semibold w-fit">Vignette</h3>
+      <div class="mt-2 text-base font-normal text-gray-11">
+        Design, Web, Infrastructure, i18n
+      </div>
+    </div>
+    <img
+      transition:name="vignette-img"
+      src="https://io.jcde.xyz/images/screenshot/vignette.png"
+      class="transition object-cover h-96 rounded-md col-span-2"
+    />
+  </a>
+  <div class="py-24">
+    <h2 class="text-2xl font-medium mt-8">Kitar</h2>
+    <p class="text-xl">omg it kitar</p>
+    <BocchiCarousel client:load />
+    <span class="mt-2 text-gray-11 text-sm inline-block">
+      from{" "}
+      <a href="https://twitter.com/BocchiTShitpost">@bocchitshitpost</a>
+    </span>{" "}
+    <p class="text-xl mt-8">yes i am a kita fan</p>
+  </div>
+</Layout>

@@ -1,0 +1,13 @@
+---
+import CraftCard from "@/components/craft-card.astro";
+import Layout from "@/layouts/Layout.astro";
+import { getCollection } from "astro:content";
+
+const craft = await getCollection("craft");
+---
+
+<Layout title="Craft - Jeeho Ahn" class="max-w-none !p-2"
+  ><div class="grid grid-cols-2 xl:grid-cols-3 gap-2">
+    {craft.map((craft) => <CraftCard data={craft.data} />)}
+  </div></Layout
+>

@@ -1,0 +1,36 @@
+---
+interface Props {
+  title: string;
+  class?: string;
+}
+
+const { title, class: className } = Astro.props;
+import "@/global.css";
+import { cn } from "@/lib/utils";
+
+import { ViewTransitions, fade } from "astro:transitions";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+
+    <ViewTransitions />
+    <title>{title}</title>
+  </head>
+  <body transition:animate={fade({ duration: 150 })}>
+    <main
+      class={cn(
+        "font-sans p-6 max-w-5xl mx-auto min-[512px]:px-16 lg:px-4",
+        className
+      )}
+    >
+      <slot />
+    </main>
+  </body>
+</html>
