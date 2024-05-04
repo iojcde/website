@@ -1,0 +1,40 @@
+---
+import Layout from "@/layouts/Layout.astro";
+---
+
+<Layout title="Craft - Devbench">
+  <div class="py-16">
+    <div
+      class="lg:absolute hidden lg:block mt-8 font-display text-gray-8 font-semibold uppercase tracking-wide text-4xl [writing-mode:vertical-lr] left-4"
+    >
+      craft - Devbench &rarr;
+    </div>
+    <img
+      transition:name="devbench-img"
+      src="/devbench.png"
+      class="w-full rounded-lg shadow-md"
+    />
+    <div class="border-l max-w-[800px] mx-auto mt-12">
+      <div class="max-w-[700px] mx-auto">
+        {" "}
+        <span class="font-medium inline-block text-gray-11">Project</span>
+        <div class="flex justify-between items-baseline">
+          <h1 class="mt-2 text-5xl font-semibold w-fit">Devbench</h1>
+          <span class="mt-4 inline-block text-gray-11"> 2021 ~ Ongoing </span>
+        </div>
+        <p class="mt-8 text-xl text-balance">
+          DevBench is a large-scale developer community with over 5000 users
+          operated on Discord. In addition, for non-Discord users, the service
+          provides question and answer with users from other platforms on the
+          site.
+        </p>
+        <a
+          href="https://devbench.kr"
+          class="mt-8 text-xl font-medium inline-block"
+        >
+          Visit &rarr;
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>

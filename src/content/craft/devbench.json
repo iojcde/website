@@ -1,10 +1,6 @@
-{
-  "videoUrl": "https://cdn.jcde.xyz/u/f5PGzD.mp4",
-  "type": "video",
-  "width": 1898,
-  "height": 1080,
-  "aspectRatio": 1.7574074074074073,
-  "name": "DevBench",
+{    "name": "DevBench",  "type": "video",
+ "src":"https://cdn.jcde.xyz/u/X200fJ.mp4", "width": 1920,
+ "height": 1080,
   "url": "https://devbench.kr",
   "date": "2022"
 }

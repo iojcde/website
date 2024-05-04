@@ -18,15 +18,15 @@ const blog = defineCollection({
 const craft = defineCollection({
   type: "data",
   schema: z.object({
-    videoUrl: z.string(),
-    type: z.string(),
+    src: z.string(),
     width: z.number(),
     height: z.number(),
-    aspectRatio: z.number(),
+    type: z.string(),
     name: z.string(),
-    url: z.string(),
+    url: z.string().optional(),
     date: z.string(),
+    dark: z.boolean().optional(),
   }),
 });
 
-export const collections = { blog };
+export const collections = { blog, craft };

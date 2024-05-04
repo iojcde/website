@@ -1,13 +1,27 @@
 ---
-import CraftCard from "@/components/craft-card.astro";
+import Grid from "@/components/grid";
+import Nav from "@/components/nav.astro";
 import Layout from "@/layouts/Layout.astro";
 import { getCollection } from "astro:content";
 
 const craft = await getCollection("craft");
 ---
 
-<Layout title="Craft - Jeeho Ahn" class="max-w-none !p-2"
-  ><div class="grid grid-cols-2 xl:grid-cols-3 gap-2">
-    {craft.map((craft) => <CraftCard data={craft.data} />)}
-  </div></Layout
->
+<Layout title="craft - Jeeho Ahn">
+  <div class="flex flex-wrap items-center h-32 mt-4 justify-between">
+    <div>
+      <h1 class="text-4xl font-bold mt-12">Craft</h1><span
+        class="inline-block pt-4 text-gray-11"
+      >
+        Projects or experiments that I've worked on.
+      </span>
+    </div>
+    <div class="pt-4">
+      <Nav />
+    </div>
+  </div>
+
+  <div class="mt-24">
+    <Grid client:only  craft={craft} />
+  </div>
+</Layout>

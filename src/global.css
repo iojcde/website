@@ -111,11 +111,19 @@ p{
 }
 
 body {
-  @apply  antialiased ;
+  @apply  antialiased  overflow-y-scroll  scroll-smooth;
 }
  
 ::view-transition-group(*){
-  animation-duration: 0.3s;
+  animation-duration: 0.25s;
   animation-timing-function: cubic-bezier(.2, .8, .2, 1)  ;
 }
-  
+
+::view-transition-old(root), ::view-transition-new(root){
+  animation-timing-function: cubic-bezier(.2, .8, .2, 1)  ;
+  animation-duration:0.2s;
+} 
+
+.masonry-column{
+  @apply gap-3 flex flex-col
+}

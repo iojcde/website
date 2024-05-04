@@ -1,10 +1,9 @@
 {
-  "videoUrl": "https://cdn.jcde.xyz/u/vrpFDN.mp4",
+  "src": "https://cdn.jcde.xyz/u/vrpFDN.mp4",
   "type": "video",
   "width": 1898,
-  "height": 910,
-  "aspectRatio": 2.085714285714286,
+  "height": 910, 
   "name": "Vignette",
-  "url": "https://vignetteapp.org",
+  "url": "/craft/vignette",
   "date": "2021"
 }

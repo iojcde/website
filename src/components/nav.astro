@@ -1,0 +1,54 @@
+---
+import { cn } from "@/lib/utils";
+
+const {
+  props: { horizontal },
+  url,
+} = Astro;
+const { pathname } = url;
+
+interface Props {
+  horizontal?: boolean;
+}
+---
+
+{
+  pathname.startsWith("/blog/") ? (
+    <nav class="flex max-w-5xl mx-auto text-gray-11 -mt-2 justify-between md:items-end font-display gap-3 font-medium">
+      <a href="/" class="font-bold text-xl text-gray-12">
+        Jeeho Ahn
+      </a>
+      <div class="flex gap-3">
+        <a>Home</a>
+        <a href="/craft">Craft</a>
+        <a href="/blog"> Blog </a>
+      </div>
+    </nav>
+  ) : (
+    <nav
+      class={cn(
+        "flex md:items-end font-display text-xl gap-3 font-medium",
+        !horizontal && "md:flex-col"
+      )}
+    >
+      <a
+        href="/"
+        class={cn("inline-block", pathname == "/craft" && "text-gray-10")}
+      >
+        Home
+      </a>
+      <a
+        class={cn("inline-block", pathname != "/craft" && "text-gray-10")}
+        href="/craft"
+      >
+        Craft
+      </a>
+      <a
+        class={cn("inline-block", pathname! != "/blog" && "text-gray-10")}
+        href="/blog"
+      >
+        Blog
+      </a>
+    </nav>
+  )
+}

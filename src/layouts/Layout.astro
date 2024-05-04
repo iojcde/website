@@ -5,6 +5,8 @@ interface Props {
 }
 
 const { title, class: className } = Astro.props;
+import Footer from "@/components/Footer.astro";
+import Nav from "@/components/nav.astro";
 import "@/global.css";
 import { cn } from "@/lib/utils";
 
@@ -12,7 +14,7 @@ import { ViewTransitions, fade } from "astro:transitions";
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" class="">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
@@ -23,6 +25,7 @@ import { ViewTransitions, fade } from "astro:transitions";
     <ViewTransitions />
     <title>{title}</title>
   </head>
+
   <body transition:animate={fade({ duration: 150 })}>
     <main
       class={cn(
@@ -31,6 +34,7 @@ import { ViewTransitions, fade } from "astro:transitions";
       )}
     >
       <slot />
+      <Footer />
     </main>
   </body>
 </html>

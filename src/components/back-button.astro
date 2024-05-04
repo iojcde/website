@@ -1,0 +1,30 @@
+---
+import { ArrowLeftIcon } from "@radix-ui/react-icons";
+---
+
+<div class="absolute left-0 top-0 p-4 lg:p-8">
+  <script is:inline data-astro-rerun>
+    // on escape key press
+
+    const handle = (event) => {
+      if (event.key === "Escape") {
+        window.history.back();
+      }
+    };
+
+    document.addEventListener("astro:page-load", () => {
+      document.addEventListener("keydown", handle);
+    });
+
+    document.addEventListener("astro:before-swap", () => {
+      document.removeEventListener("keydown", handle);
+    });
+  </script>
+  <a href="/" class="p-1 h-10 w-10 flex items-center justify-center">
+    <div
+      class="rounded-full border h-6 w-6 text-gray-11 justify-center flex items-center"
+    >
+      <ArrowLeftIcon />
+    </div>
+  </a>
+</div>

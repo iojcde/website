@@ -26,25 +26,51 @@ const CraftMakerForm = () => {
           alert("go away! only cdn.jcde.xyz is allowed!");
         }
         const vid = document.querySelector("#output video") as HTMLVideoElement;
-        vid.src = url;
-        await vid.play();
+        let img;
+        try {
+          vid.src = url;
 
-        setOutput(
-          JSON.stringify(
-            {
-              videoUrl: url,
-              type: "video",
-              width: vid.videoWidth,
-              height: vid.videoHeight,
-              aspectRatio: vid.videoWidth / vid.videoHeight,
-              name: "",
-              url: "",
-              date: "",
-            },
-            null,
-            2
-          )
-        );
+          await vid.play();
+          setOutput(
+            JSON.stringify(
+              {
+                src: url,
+                type: "video",
+                width: vid.videoWidth || img,
+                height: vid.videoHeight,
+                name: "",
+                url: "",
+                date: "",
+              },
+              null,
+              2
+            )
+          );
+        } catch (e) {
+          if (e instanceof DOMException) {
+            // oh its a img
+            const img = document.querySelector(
+              "#output img"
+            ) as HTMLImageElement;
+            img.src = url;
+
+            setOutput(
+              JSON.stringify(
+                {
+                  src: url,
+                  type: "image",
+                  width: img.width,
+                  height: img.height,
+                  name: "",
+                  url: "",
+                  date: "",
+                },
+                null,
+                2
+              )
+            );
+          }
+        }
       }}
       className="mt-4 flex flex-col gap-2"
     >
@@ -59,7 +85,9 @@ const CraftMakerForm = () => {
       </button>
 
       <div id="output">
-        <video className="bg-pink-500" autoPlay loop playsInline muted />
+        <video autoPlay loop playsInline muted />
+        <img />
+
         <pre>
           <code>{output}</code>
         </pre>
