@@ -1,7 +1,12 @@
 import CraftCard from "./craft-card";
 import Masonry from "./masonry";
+import { getCollection } from "astro:content";
 
-const Grid = ({ craft }) => {
+const Grid = ({
+  craft,
+}: {
+  craft: Awaited<ReturnType<typeof getCollection<"craft">>>;
+}) => {
   return (
     <Masonry
       className="grid justify-items-center  sm:grid-cols-2  gap-3"
