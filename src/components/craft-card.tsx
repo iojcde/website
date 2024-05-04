@@ -17,7 +17,7 @@ interface Props {
 const CraftCard: React.FC<Props> = ({ data }) => (
   <a
     href={data.url}
-    className="border border-gray-5 rounded-xl overflow-hidden block relative"
+    className="border border-gray-5 w-full rounded-xl overflow-hidden block relative"
     style={{ aspectRatio: `${data.width}/${data.height}` }}
   >
     {data.type === "video" ? (
