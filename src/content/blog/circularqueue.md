@@ -4,7 +4,7 @@ status: 'published'
 slug: 'circularqueue'
 description: '원형큐에 대해 알아보자'
 tags: []
-publishedAt: '2024-03-12T00:53:42.508Z'
+publishedAt: '2024-05-31T00:53:42.508Z'
 ---
 원형 큐(circular queue)는 큐의 일종으로, 마지막 위치가 첫 번째 위치와 연결되어 원형 형태를 이루는 자료구조이다. 원형 큐는 배열을 사용하여 구현되며, 주로 고정된 크기의 배열을 사용한다. 일반적인 큐와 달리, 원형 큐는 공간을 효율적으로 사용한다.
 
