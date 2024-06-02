@@ -26,3 +26,17 @@ double ended queue의 약자
 왼쪽: front를 지금 front와 연결되어 있는 것과 바꾸기
 오른쪽: rear를 지금 rear와 연결되어 있는 것과 바꾸기
 
+
+## 문제 풀이
+TULOWB => FLOWER
+
+왼쪽 삭제 x 2
+
+왼쪽 'F' 삽입
+
+오른쪽 삭제
+
+오른쪽 'E' 삽입
+
+오른쪽 'R' 삽입
+ 
