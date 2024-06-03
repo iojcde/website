@@ -1,7 +1,7 @@
 ---
 title: '[PACKET] Next.js를 활용한 웹개발 겨우 마스터하기 3탄 '
 status: 'published'
-slug: 'webdev-1'
+slug: 'webdev-3'
 description: ''
 coverImage: ''
 tags: []
