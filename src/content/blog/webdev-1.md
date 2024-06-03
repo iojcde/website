@@ -1,5 +1,5 @@
 ---
-title: '[PACKET] Next.js를 활용한 웹개발 겨우 마스터하기 1탄'
+title: '[PACKET] Next.js를 활용한 웹개발 겨우 마스터하기 1탄 '
 status: 'published'
 slug: 'webdev-1'
 description: ''
